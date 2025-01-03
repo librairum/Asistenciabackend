@@ -1,0 +1,11 @@
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.deps.json
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.dll
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.pdb
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.AssemblyInfoInputs.cache
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.AssemblyInfo.cs
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.dll
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\refint\Asistencia.DTO.dll
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.pdb
+C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\ref\Asistencia.DTO.dll

@@ -1,0 +1,349 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.abstractions\\iservice\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|solutionrelative:asistencia.abstractions\\iservice\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.repository\\repositoryserviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|solutionrelative:asistencia.repository\\repositoryserviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.repository\\usuario\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|solutionrelative:asistencia.repository\\usuario\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3443C6-B6ED-4A9D-AA7E-A41F76C34306}|Asistencia.Services\\Asistencia.Services.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3443C6-B6ED-4A9D-AA7E-A41F76C34306}|Asistencia.Services\\Asistencia.Services.csproj|solutionrelative:asistencia.services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.abstractions\\iapplication\\iusuarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|solutionrelative:asistencia.abstractions\\iapplication\\iusuarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.abstractions\\irepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|solutionrelative:asistencia.abstractions\\irepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.repository\\asistencia.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|solutionrelative:asistencia.repository\\asistencia.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|solutionrelative:asistencia.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|solutionrelative:asistencia.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.dto\\common\\deletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|solutionrelative:asistencia.dto\\common\\deletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.dto\\asistencia.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|solutionrelative:asistencia.dto\\asistencia.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.abstractions\\asistencia.abstractions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|solutionrelative:asistencia.abstractions\\asistencia.abstractions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.dto\\usuario\\usuariocreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|solutionrelative:asistencia.dto\\usuario\\usuariocreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.dto\\usuario\\usuariolistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|solutionrelative:asistencia.dto\\usuario\\usuariolistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31899520-11A6-486E-86DB-7DF6EEBCD018}|Asistencia.Application\\Asistencia.Application.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.application\\asistencia.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{31899520-11A6-486E-86DB-7DF6EEBCD018}|Asistencia.Application\\Asistencia.Application.csproj|solutionrelative:asistencia.application\\asistencia.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3443C6-B6ED-4A9D-AA7E-A41F76C34306}|Asistencia.Services\\Asistencia.Services.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3443C6-B6ED-4A9D-AA7E-A41F76C34306}|Asistencia.Services\\Asistencia.Services.csproj|solutionrelative:asistencia.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31899520-11A6-486E-86DB-7DF6EEBCD018}|Asistencia.Application\\Asistencia.Application.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31899520-11A6-486E-86DB-7DF6EEBCD018}|Asistencia.Application\\Asistencia.Application.csproj|solutionrelative:asistencia.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.abstractions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|solutionrelative:asistencia.abstractions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\aspnetcore\\sln_asistenciabackend\\asistencia.dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|solutionrelative:asistencia.dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Services\\Usuario\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Asistencia.Services\\Usuario\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Services\\Usuario\\UsuarioService.cs",
+              "RelativeToolTip": "Asistencia.Services\\Usuario\\UsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T03:06:29.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Asistencia.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.WebAPI\\Program.cs",
+              "RelativeToolTip": "Asistencia.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:29:05.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Repository\\Usuario\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Asistencia.Repository\\Usuario\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Repository\\Usuario\\UsuarioRepository.cs",
+              "RelativeToolTip": "Asistencia.Repository\\Usuario\\UsuarioRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAhwBIAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:21:08.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Asistencia.Repository.csproj",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Repository\\Asistencia.Repository.csproj",
+              "RelativeDocumentMoniker": "Asistencia.Repository\\Asistencia.Repository.csproj",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Repository\\Asistencia.Repository.csproj",
+              "RelativeToolTip": "Asistencia.Repository\\Asistencia.Repository.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-02T19:07:38.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\IService\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Asistencia.Abstractions\\IService\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\IService\\IUsuarioService.cs",
+              "RelativeToolTip": "Asistencia.Abstractions\\IService\\IUsuarioService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:29:43.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioApplication.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\IApplication\\IUsuarioApplication.cs",
+              "RelativeDocumentMoniker": "Asistencia.Abstractions\\IApplication\\IUsuarioApplication.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\IApplication\\IUsuarioApplication.cs",
+              "RelativeToolTip": "Asistencia.Abstractions\\IApplication\\IUsuarioApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:28:38.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\IRepository\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Asistencia.Abstractions\\IRepository\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\IRepository\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Asistencia.Abstractions\\IRepository\\IUsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:29:26.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Asistencia.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.WebAPI\\appsettings.json",
+              "RelativeToolTip": "Asistencia.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-03T02:26:25.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Common\\DeleteDTO.cs",
+              "RelativeDocumentMoniker": "Asistencia.DTO\\Common\\DeleteDTO.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Common\\DeleteDTO.cs",
+              "RelativeToolTip": "Asistencia.DTO\\Common\\DeleteDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:30:51.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Asistencia.Abstractions",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
+              "RelativeDocumentMoniker": "Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
+              "RelativeToolTip": "Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-02T22:58:07.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Usuario\\UsuarioCreateRequest.cs",
+              "RelativeDocumentMoniker": "Asistencia.DTO\\Usuario\\UsuarioCreateRequest.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Usuario\\UsuarioCreateRequest.cs",
+              "RelativeToolTip": "Asistencia.DTO\\Usuario\\UsuarioCreateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:38:23.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioListResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Usuario\\UsuarioListResponse.cs",
+              "RelativeDocumentMoniker": "Asistencia.DTO\\Usuario\\UsuarioListResponse.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Usuario\\UsuarioListResponse.cs",
+              "RelativeToolTip": "Asistencia.DTO\\Usuario\\UsuarioListResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:38:41.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Asistencia.DTO.csproj",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Asistencia.DTO.csproj",
+              "RelativeDocumentMoniker": "Asistencia.DTO\\Asistencia.DTO.csproj",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Asistencia.DTO.csproj",
+              "RelativeToolTip": "Asistencia.DTO\\Asistencia.DTO.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-02T19:07:23.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Asistencia.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\Asistencia.Application.csproj",
+              "RelativeDocumentMoniker": "Asistencia.Application\\Asistencia.Application.csproj",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\Asistencia.Application.csproj",
+              "RelativeToolTip": "Asistencia.Application\\Asistencia.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-02T19:07:47.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Services\\Class1.cs",
+              "RelativeDocumentMoniker": "Asistencia.Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Services\\Class1.cs",
+              "RelativeToolTip": "Asistencia.Services\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:05:25.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Asistencia.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\Class1.cs",
+              "RelativeToolTip": "Asistencia.Application\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:05:01.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Class1.cs",
+              "RelativeDocumentMoniker": "Asistencia.Abstractions\\Class1.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Class1.cs",
+              "RelativeToolTip": "Asistencia.Abstractions\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:02:01.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Class1.cs",
+              "RelativeDocumentMoniker": "Asistencia.DTO\\Class1.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Class1.cs",
+              "RelativeToolTip": "Asistencia.DTO\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:01:20.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositoryServiceRegister.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Repository\\RepositoryServiceRegister.cs",
+              "RelativeDocumentMoniker": "Asistencia.Repository\\RepositoryServiceRegister.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Repository\\RepositoryServiceRegister.cs",
+              "RelativeToolTip": "Asistencia.Repository\\RepositoryServiceRegister.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:58:32.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

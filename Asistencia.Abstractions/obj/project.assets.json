@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Asistencia.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Asistencia.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Asistencia.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Asistencia.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Asistencia.DTO/Asistencia.DTO.csproj",
+      "msbuildProject": "../Asistencia.DTO/Asistencia.DTO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Asistencia.DTO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ivan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
+      "projectName": "Asistencia.Abstractions",
+      "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
+      "packagesPath": "C:\\Users\\ivan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Asistencia.DTO.csproj": {
+              "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Asistencia.DTO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
