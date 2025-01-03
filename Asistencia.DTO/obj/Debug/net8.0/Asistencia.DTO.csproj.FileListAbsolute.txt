@@ -9,3 +9,15 @@ C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asis
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\refint\Asistencia.DTO.dll
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.pdb
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.DTO\obj\Debug\net8.0\ref\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.deps.json
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.pdb
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.AssemblyInfoInputs.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.AssemblyInfo.cs
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.csproj.CoreCompileInputs.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.sourcelink.json
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\refint\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.pdb
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\ref\Asistencia.DTO.dll

@@ -23,3 +23,14 @@ C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asis
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.pdb
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.genruntimeconfig.cache
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.WebAPI\obj\Debug\net8.0\ref\Asistencia.WebAPI.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.csproj.AssemblyReference.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.AssemblyInfoInputs.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.AssemblyInfo.cs
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.csproj.CoreCompileInputs.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.sourcelink.json
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\refint\Asistencia.WebAPI.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.WebAPI\obj\Debug\net8.0\Asistencia.WebAPI.pdb

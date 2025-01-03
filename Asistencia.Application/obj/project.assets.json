@@ -2,25 +2,6 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Microsoft.Extensions.DependencyInjection/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
@@ -63,36 +44,6 @@
     }
   },
   "libraries": {
-    "Microsoft.Extensions.DependencyInjection/9.0.0": {
-      "sha512": "MCPrg7v3QgNMr0vX4vzRXvkNGgLg8vKWX0nKCWUxu2uPyMsaRgiRc1tHBnbTcfJMhMKj2slE/j2M9oGkd25DNw==",
-      "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
-        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/net8.0/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/net9.0/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
       "sha512": "+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
       "type": "package",
@@ -137,31 +88,23 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Asistencia.Abstractions >= 1.0.0",
-      "Asistencia.DTO >= 1.0.0",
-      "Microsoft.Extensions.DependencyInjection >= 9.0.0"
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\sistemas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\Asistencia.Application.csproj",
+      "projectUniqueName": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Application\\Asistencia.Application.csproj",
       "projectName": "Asistencia.Application",
-      "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\Asistencia.Application.csproj",
-      "packagesPath": "C:\\Users\\ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\obj\\",
+      "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Application\\Asistencia.Application.csproj",
+      "packagesPath": "C:\\Users\\sistemas\\.nuget\\packages\\",
+      "outputPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -176,11 +119,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj": {
-              "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj"
-            },
-            "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Asistencia.DTO.csproj": {
-              "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Asistencia.DTO.csproj"
+            "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj": {
+              "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj"
             }
           }
         }
@@ -200,7 +140,7 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[9.0.0, )"
           }
@@ -221,7 +161,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

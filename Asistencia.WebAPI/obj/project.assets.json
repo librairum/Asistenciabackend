@@ -777,8 +777,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Asistencia.Abstractions": "1.0.0",
-          "Asistencia.DTO": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         },
         "compile": {
           "bin/placeholder/Asistencia.Application.dll": {}
@@ -820,7 +819,7 @@
         "dependencies": {
           "Asistencia.Abstractions": "1.0.0",
           "Asistencia.DTO": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         },
         "compile": {
           "bin/placeholder/Asistencia.Services.dll": {}
@@ -2426,26 +2425,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\sistemas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.WebAPI\\Asistencia.WebAPI.csproj",
+      "projectUniqueName": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.WebAPI\\Asistencia.WebAPI.csproj",
       "projectName": "Asistencia.WebAPI",
-      "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.WebAPI\\Asistencia.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.WebAPI\\obj\\",
+      "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.WebAPI\\Asistencia.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\sistemas\\.nuget\\packages\\",
+      "outputPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2460,20 +2452,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj": {
-              "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj"
+            "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj": {
+              "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj"
             },
-            "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\Asistencia.Application.csproj": {
-              "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Application\\Asistencia.Application.csproj"
+            "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Application\\Asistencia.Application.csproj": {
+              "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Application\\Asistencia.Application.csproj"
             },
-            "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Asistencia.DTO.csproj": {
-              "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.DTO\\Asistencia.DTO.csproj"
+            "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj": {
+              "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj"
             },
-            "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Repository\\Asistencia.Repository.csproj": {
-              "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Repository\\Asistencia.Repository.csproj"
+            "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj": {
+              "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj"
             },
-            "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Services\\Asistencia.Services.csproj": {
-              "projectPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\AspNetCore\\sln_AsistenciaBackend\\Asistencia.Services\\Asistencia.Services.csproj"
+            "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Services\\Asistencia.Services.csproj": {
+              "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Services\\Asistencia.Services.csproj"
             }
           }
         }
@@ -2517,7 +2509,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,7 +10,7 @@ using Asistencia.DTO.Common;
 using Asistencia.DTO.Usuario;
 namespace Asistencia.Application.Usuario
 {
-    public class UsuarioApplication:IUsuarioService
+    public class UsuarioApplication:IUsuarioApplication
     {
         private IUsuarioService _usuarioService;
 

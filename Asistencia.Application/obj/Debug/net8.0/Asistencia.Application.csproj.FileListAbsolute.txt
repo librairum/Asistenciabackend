@@ -9,3 +9,21 @@ C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asis
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.Application\obj\Debug\net8.0\refint\Asistencia.Application.dll
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.pdb
 C:\Users\ivan\Documents\Visual Studio 2022\AspNetCore\sln_AsistenciaBackend\Asistencia.Application\obj\Debug\net8.0\ref\Asistencia.Application.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\bin\Debug\net8.0\Asistencia.Application.deps.json
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\bin\Debug\net8.0\Asistencia.Application.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\bin\Debug\net8.0\Asistencia.Application.pdb
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\bin\Debug\net8.0\Asistencia.Abstractions.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\bin\Debug\net8.0\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\bin\Debug\net8.0\Asistencia.Abstractions.pdb
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\bin\Debug\net8.0\Asistencia.DTO.pdb
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.csproj.AssemblyReference.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.AssemblyInfoInputs.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.AssemblyInfo.cs
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.csproj.CoreCompileInputs.cache
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.sourcelink.json
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistenc.B0382F3A.Up2Date
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\refint\Asistencia.Application.dll
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\Asistencia.Application.pdb
+D:\SISTEMA_KAMATERA\Backend\Asistenciabackend\Asistencia.Application\obj\Debug\net8.0\ref\Asistencia.Application.dll
