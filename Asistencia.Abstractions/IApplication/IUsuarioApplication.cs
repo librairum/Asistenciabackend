@@ -12,7 +12,7 @@ namespace Asistencia.Abstractions.IApplication
         public Task<ResultDTO<string>> SpInsertaUsuario(UsuarioCreateRequest request);
 
         public Task<ResultDTO<string>> SpActualizarUsuario(UsuarioCreateRequest request);
-        public Task<ResultDTO<string>> SpEliminaUsuario(string codigo, string cuentacod);
+        public Task<ResultDTO<string>> SpEliminaUsuario(string codigo, string cuentacod, string empresacod);
         public Task<ResultDTO<UsuarioListResponse>> SpListaUsuaurio( );
     }
 }

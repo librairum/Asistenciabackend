@@ -24,9 +24,9 @@ namespace Asistencia.Services.Usuario
             return await _usuarioRepository.SpActualizarUsuario(request);
         }
 
-        public async Task<ResultDTO<string>> SpEliminaUsuario(string codigo, string cuentacod)
+        public async Task<ResultDTO<string>> SpEliminaUsuario(string codigo, string cuentacod, string empresacod)
         {
-            return await _usuarioRepository.SpEliminaUsuario(codigo, cuentacod);
+            return await _usuarioRepository.SpEliminaUsuario(codigo, cuentacod, empresacod);
         }
 
         public async Task<ResultDTO<string>> SpInsertaUsuario(UsuarioCreateRequest request)

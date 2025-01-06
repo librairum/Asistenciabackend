@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Asistencia.DTO\Asistencia.DTO.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Asistencia\" />
+  </ItemGroup>
+
 </Project>

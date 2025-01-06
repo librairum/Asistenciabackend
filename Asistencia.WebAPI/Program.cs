@@ -12,33 +12,45 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+builder.Services.AddRepositoryServices();
+builder.Services.AddServiceServices();
+builder.Services.AddApplicationServices();
+var origenesPermitidos = builder.Configuration.GetValue<string>("OrigenesPermitidos")!.Split(",");
+
+builder.Services.AddCors(opciones =>
+{
+    opciones.AddDefaultPolicy(politica =>
+    {
+        politica.WithOrigins(origenesPermitidos).
+        AllowAnyHeader().
+        AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
+if (app.Environment.IsDevelopment())
+{
+    /*
+     app.UseSwagger();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", 
+                        "Ejemplo de API"));
+     */
+}
+
 app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-});
+app.UseCors();
+app.UseAuthorization();
+app.MapControllers();
+app.UseSwagger();
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ejemplo de API"));
+app.MapControllers();
 
 app.Run();
 
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+//internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+//{
+//    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+//}

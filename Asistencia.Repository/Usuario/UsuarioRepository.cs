@@ -39,7 +39,7 @@ namespace Asistencia.Repository.Usuario
                 var parFlag = cmd.Parameters.Add("@flag", System.Data.SqlDbType.Int);
                 parFlag.Direction = System.Data.ParameterDirection.Output;
                 
-                var parMensaje = cmd.Parameters.Add("@parMensaje", System.Data.SqlDbType.VarChar,200);
+                var parMensaje = cmd.Parameters.Add("@mensaje", System.Data.SqlDbType.VarChar,200);
                 parMensaje.Direction = System.Data.ParameterDirection.Output;
                 cn.Open();
                 var respuesta = await cmd.ExecuteNonQueryAsync();
@@ -61,7 +61,7 @@ namespace Asistencia.Repository.Usuario
 
         }
 
-        public async Task<ResultDTO<string>> SpEliminaUsuario(string  codigo, string cuentacod)
+        public async Task<ResultDTO<string>> SpEliminaUsuario(string  codigo, string cuentacod, string empresacod)
         {
             ResultDTO<string> result = new ResultDTO<string>();
             try {
@@ -70,6 +70,8 @@ namespace Asistencia.Repository.Usuario
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@codigo", codigo);
                 cmd.Parameters.AddWithValue("@cuentacod", cuentacod);
+                //@empresacod varchar(5)
+                cmd.Parameters.AddWithValue("@empresacod", empresacod);
                 var parFlag = cmd.Parameters.Add("@flag", SqlDbType.Int);
                 parFlag.Direction = ParameterDirection.Output;
                 var parMensaje = cmd.Parameters.Add("@mensaje", SqlDbType.VarChar, 200);
@@ -142,7 +144,7 @@ namespace Asistencia.Repository.Usuario
                 DynamicParameters parametros = new DynamicParameters();
                 //agregar parametros
                 // parametros.add("@flag", flag)
-                lista = (List<UsuarioListResponse>)await cn.QueryAsync<UsuarioListResponse>("",
+                lista = (List<UsuarioListResponse>)await cn.QueryAsync<UsuarioListResponse>("Spu_Int_Trae_Usuarios",
                     parametros, commandType: System.Data.CommandType.StoredProcedure);
                 res.IsSuccess = lista.Count > 0 ? true : false;
                 res.Message = lista.Count > 0 ? "Informacion encontrada" : "No se encuentra informacion";
