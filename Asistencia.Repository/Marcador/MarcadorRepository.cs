@@ -72,6 +72,8 @@ namespace Asistencia.Repository.Marcador
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@MarcadorClienteCod", request.MarcadorClienteCod);
                 cmd.Parameters.AddWithValue("@MarcadorProveedorCod", request.MarcadorProveedorCod);
+                cmd.Parameters.AddWithValue("@MarcadorDesc", request.MarcadorDesc);
+                cmd.Parameters.AddWithValue("@MarcadorEstado", request.MarcadorEstado);
 
                 var parFlag = cmd.Parameters.Add("@flag", System.Data.SqlDbType.Int);
                 parFlag.Direction = System.Data.ParameterDirection.Output;

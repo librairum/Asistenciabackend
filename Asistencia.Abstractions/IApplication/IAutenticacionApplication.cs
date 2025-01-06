@@ -11,7 +11,7 @@ namespace Asistencia.Abstractions.IApplication
 {
     public interface IAutenticacionApplication
     {
-        public Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(string nombreusuario, string claveUsuario, string codigoempresa);
+        public Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(AutenticacionRequest request);
 
 
     }

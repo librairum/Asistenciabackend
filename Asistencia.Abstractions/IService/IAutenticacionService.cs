@@ -11,7 +11,7 @@ namespace Asistencia.Abstractions.IService
 {
     public interface IAutenticacionService
     {
-        public Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(string nombreusuario, string claveUsuario, string codigoempresa);
+        public Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(AutenticacionRequest request);
  
     }
 }

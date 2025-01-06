@@ -20,9 +20,9 @@ namespace Asistencia.Application.Autenticacion
             _authService = authService;
         }
 
-        public async Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(string nombreusuario, string claveUsuario, string codigoempresa)
+        public async Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(AutenticacionRequest request)
         {
-            return await this._authService.SpAccesoUsuario(nombreusuario, claveUsuario, codigoempresa);
+            return await this._authService.SpAccesoUsuario(request);
         }
 
     }

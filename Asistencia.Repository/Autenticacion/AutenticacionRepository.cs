@@ -20,7 +20,7 @@ namespace Asistencia.Repository.Autenticacion
 
         
 
-        public async Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(string nombreusuario, string claveUsuario, string codigoempresa)
+        public async Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(AutenticacionRequest request)
         {
             ResultDTO<AccesoUsuarioResponse> res = new ResultDTO<AccesoUsuarioResponse>();
             List<AccesoUsuarioResponse> lista = new List<AccesoUsuarioResponse>();
@@ -28,9 +28,9 @@ namespace Asistencia.Repository.Autenticacion
             {
                 SqlConnection cn = new SqlConnection(this._connectionString);
                 DynamicParameters parametros = new DynamicParameters();
-                parametros.Add("@NombreUsuario", nombreusuario);
-                parametros.Add("@ClaveUsuario", claveUsuario);
-                parametros.Add("@codigoEmpresa", codigoempresa);
+                parametros.Add("@NombreUsuario", request.nombreusuario);
+                parametros.Add("@ClaveUsuario", request.claveusuario);
+                parametros.Add("@codigoEmpresa", request.codigoempresa);
 
                 lista = (List<AccesoUsuarioResponse>)await cn.QueryAsync<AccesoUsuarioResponse>("Spu_Seg_Trae_Autenticacion_Usuario",
                     parametros, commandType: System.Data.CommandType.StoredProcedure);

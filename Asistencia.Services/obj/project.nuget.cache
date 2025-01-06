@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "l/Z4S+Ti3Un5qCym1iciZctDkPVLExiggh32A0wy0LwdLzodSOqohEf+UmzHgu1JLM0i8a0dAdiDPI+qhsBL/w==",
+  "dgSpecHash": "EuP6ro0d8oA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.Services\\Asistencia.Services.csproj",
+  "projectFilePath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Services\\Asistencia.Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ivan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+    "C:\\Users\\sistemas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }

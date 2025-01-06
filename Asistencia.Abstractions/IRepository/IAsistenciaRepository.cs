@@ -14,7 +14,7 @@ namespace Asistencia.Abstractions.IRepository
 Spu_Int_Trae_AsistenciaDetalle
 
          */
-        public Task<ResultDTO<AsistenciaResumidoResponse>> TraeResumen();
+        //public Task<ResultDTO<AsistenciaResumidoResponse>> TraeResumen();
 
 
     }

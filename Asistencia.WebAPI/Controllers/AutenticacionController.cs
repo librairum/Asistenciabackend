@@ -18,13 +18,13 @@ namespace Asistencia.WebAPI.Controllers
             this._authApplication = authAplicacion;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("SpList")]
-        public async Task<ActionResult> ObtenerUsuario(string nombreusuario, string claveusuario, string codigoempresa)
+        public async Task<ActionResult> ObtenerUsuario(AutenticacionRequest request)
         {
             try
             {
-                var result = await this._authApplication.SpAccesoUsuario(nombreusuario, claveusuario, codigoempresa);
+                var result = await this._authApplication.SpAccesoUsuario(request);
                 return Ok(result);
             }
             catch (Exception ex)

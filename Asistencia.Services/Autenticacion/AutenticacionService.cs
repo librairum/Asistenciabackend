@@ -19,9 +19,9 @@ namespace Asistencia.Services.Autenticacion
         {
             _authRepositorio = authRepositorio;
         }
-        public  async Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(string nombreusuario, string claveUsuario, string codigoempresa)
+        public  async Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(AutenticacionRequest request)
         {
-            return await this._authRepositorio.SpAccesoUsuario(nombreusuario, claveUsuario, codigoempresa);
+            return await this._authRepositorio.SpAccesoUsuario(request);
         }
 
  
