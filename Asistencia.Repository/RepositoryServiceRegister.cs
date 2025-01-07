@@ -6,6 +6,7 @@ using Asistencia.Repository.Anio;
 using Asistencia.Repository.Marcador;
 using Asistencia.Repository.Permisos;
 using Asistencia.Repository.Perfil;
+using Asistencia.Repository.Asistencia;
 
 namespace Asistencia.Repository
 {
@@ -19,6 +20,7 @@ namespace Asistencia.Repository
             services.AddScoped<IMarcadorRepository, MarcadorRepository>();
             services.AddScoped<IPermisosRepository, PermisosRepository>();
             services.AddScoped<IPerfilRepository, PerfilRepository>();
+            services.AddScoped<IAsistenciaRepository, AsistenciaRepository>();
             //agregar otras lineas de services segun se crear mas clase reporsitory 
             return services;
         }

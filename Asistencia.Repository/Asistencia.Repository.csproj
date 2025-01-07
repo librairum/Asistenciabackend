@@ -17,8 +17,4 @@
     <ProjectReference Include="..\Asistencia.Abstractions\Asistencia.Abstractions.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Asistencia\" />
-  </ItemGroup>
-
 </Project>

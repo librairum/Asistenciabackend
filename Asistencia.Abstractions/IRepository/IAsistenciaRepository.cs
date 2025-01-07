@@ -1,4 +1,5 @@
-﻿using Asistencia.DTO.Common;
+﻿using Asistencia.DTO.Asistencia;
+using Asistencia.DTO.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,9 @@ namespace Asistencia.Abstractions.IRepository
 Spu_Int_Trae_AsistenciaDetalle
 
          */
-        //public Task<ResultDTO<AsistenciaResumidoResponse>> TraeResumen();
+        public Task<ResultDTO<AsistenciaResumidoResponse>> TraeResumen(string fechaInicio, 
+            string fechaFin, string codigoPlanilla);
+        public Task<ResultDTO<AsistenciaDetalleResponse>> TraeDetalle(string codigoempleado);
 
 
     }

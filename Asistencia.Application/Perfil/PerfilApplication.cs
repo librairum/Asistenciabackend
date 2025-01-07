@@ -4,6 +4,7 @@ using Asistencia.DTO.Common;
 using Asistencia.DTO.Perfil;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,8 @@ namespace Asistencia.Application.Perfil
 
         public async Task<ResultDTO<string>> SpActualiza(PerfilRequest request)
         {
+          
+           
             return await this._perfilService.SpActualiza(request);
         }
 

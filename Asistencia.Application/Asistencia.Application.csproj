@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Asistencia\" />
     <Folder Include="Usuario\" />
   </ItemGroup>
 

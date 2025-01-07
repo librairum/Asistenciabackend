@@ -6,6 +6,7 @@ using Asistencia.Application.Anio;
 using Asistencia.Application.Marcador;
 using Asistencia.Application.Permisos;
 using Asistencia.Application.Perfil;
+using Asistencia.Application.Asistencia;
 
 namespace Asistencia.Application
 {
@@ -19,6 +20,7 @@ namespace Asistencia.Application
             services.AddScoped<IMarcadorApplication, MarcadorApplication>();
             services.AddScoped<IPermisosApplication, PermisosApplication>();
             services.AddScoped<IPerfilApplication, PerfilApplication>();
+            services.AddScoped<IAsistenciaApplication, AsistenciaApplication>();
             //agregar mas clases de aplicacion
             return services;
         }

@@ -8,6 +8,7 @@ namespace Asistencia.DTO.Marcador
 {
     public class MarcadorRequest
     {
+
         public string MarcadorClienteCod { get; set; }
         public string MarcadorProveedorCod { get; set; }
         public string MarcadorDesc { get; set; }

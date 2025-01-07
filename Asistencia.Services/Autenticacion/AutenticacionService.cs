@@ -21,6 +21,7 @@ namespace Asistencia.Services.Autenticacion
         }
         public  async Task<ResultDTO<AccesoUsuarioResponse>> SpAccesoUsuario(AutenticacionRequest request)
         {
+            
             return await this._authRepositorio.SpAccesoUsuario(request);
         }
 
