@@ -14,15 +14,17 @@ namespace Asistencia.DTO.Asistencia
           ,  , , , ,   
          */
         public int Item { get;set; }
+        public DateTime FechaMarcacion { get;set; }
         public string Codigotrabajador { get; set; }
         public string NombreTrabajador { get; set; }
+
             public string DiaNombre { get; set; }
-            public DateTime HoraEntrada { get; set; }
-            public DateTime HoraSalida { get; set; }
+            public string HoraEntrada { get; set; }
+            public string HoraSalida { get; set; }
             public int Dias { get; set; }
-            public int Horas25 { get; set; }
-            public int Horas35 { get; set; }
-            public int Horas60 { get; set; }
-            public int Horas100 { get; set; }
+            public string Horas25 { get; set; }
+            public string Horas35 { get; set; }
+            public string Horas60 { get; set; }
+            public string Horas100 { get; set; }
     }
 }

@@ -18,9 +18,35 @@ namespace Asistencia.Repository.Asistencia
         private string _connectionString = "";
         public AsistenciaRepository(IConfiguration configuracion)
         {
-            this._connectionString = configuracion.GetConnectionString("coneixon");
+            this._connectionString = configuracion.GetConnectionString("conexion");
         }
-        public async Task<ResultDTO<AsistenciaDetalleResponse>> TraeDetalle(string codigoempleado)
+
+        public async Task<ResultDTO<AsistenciaGeneralResponse>> TraeAsistenciaGeneral(string fechainicio, 
+            string fechafin)
+        {
+            ResultDTO<AsistenciaGeneralResponse> res = new ResultDTO<AsistenciaGeneralResponse>();
+            List<AsistenciaGeneralResponse> lista = new List<AsistenciaGeneralResponse>();
+            try
+            {
+                SqlConnection cn = new SqlConnection(this._connectionString);
+                DynamicParameters parametros = new DynamicParameters();
+                parametros.Add("@fechainicio", fechainicio);
+                parametros.Add("@fechafin", fechafin);
+                lista = (List<AsistenciaGeneralResponse>)await cn.QueryAsync<AsistenciaGeneralResponse>("Spu_Int_Traer_AsistenciaGeneral",
+                    parametros, commandType: CommandType.StoredProcedure);
+                res.IsSuccess = lista.Count > 0 ? true : false;
+                res.Message = lista.Count > 0 ? "Informacion encotnrada" : "No se encuentra informacion";
+                res.Data = lista.ToList();
+            }
+            catch (Exception ex)
+            {
+                res.IsSuccess = false;
+                res.MessageException = ex.Message;
+            }
+            return res;
+        }
+
+        public async Task<ResultDTO<AsistenciaDetalleResponse>> TraeDetalle(string fechainicio, string fechafin,string codigoempleado)
         {
             ResultDTO<AsistenciaDetalleResponse> res = new ResultDTO<AsistenciaDetalleResponse>();
             List<AsistenciaDetalleResponse> lista = new List<AsistenciaDetalleResponse>();
@@ -28,14 +54,44 @@ namespace Asistencia.Repository.Asistencia
             {
                 SqlConnection cn = new SqlConnection(_connectionString);
                 DynamicParameters parametros = new DynamicParameters();
+                parametros.Add("@fechaInicio", fechainicio);
+                parametros.Add("@fechaFin", fechafin);               
                 parametros.Add("@codigoempleado", codigoempleado);
-                lista = (List<AsistenciaDetalleResponse>)await cn.QueryAsync<AsistenciaDetalleResponse>("Spu_Int_Trae_AsistenciaDetalle",
+                
+                
+                lista = (List<AsistenciaDetalleResponse>)await cn.QueryAsync<AsistenciaDetalleResponse>("Spu_Int_Trae_CalculoAsistenciaDetalle",
                     parametros, commandType : CommandType.StoredProcedure);
                 res.IsSuccess = lista.Count > 0 ? true : false;
-                res.Message = lista.Count > 0 ? "Informacion encotnrada" : "No se neucentra informacion";
+                res.Message = lista.Count > 0 ? "Informacion encotnrada" : "No se encuentra informacion";
                 res.Data  = lista.ToList();
             }
             catch (Exception ex) {
+                res.IsSuccess = false;
+                res.MessageException = ex.Message;
+            }
+            return res;
+        }
+
+        public async Task<ResultDTO<PlanillaResponse>> TraePlanilla()
+        {
+            ResultDTO<PlanillaResponse> res = new ResultDTO<PlanillaResponse>();
+            List<PlanillaResponse> lista = new List<PlanillaResponse>();
+            try
+            {
+                SqlConnection cn = new SqlConnection(this._connectionString);
+                DynamicParameters parametros = new DynamicParameters();
+                //parametros.Add("@fechaInicio", fechaInicio);
+                //parametros.Add("@fechaFin", fechaFin);
+                //parametros.Add("@codigoPlanilla", codigoPlanilla);
+
+                lista = (List<PlanillaResponse>)await cn.QueryAsync<PlanillaResponse>("Spu_Int_Trae_Planilla",
+                    parametros, commandType: CommandType.StoredProcedure);
+                res.IsSuccess = lista.Count > 0 ? true : false;
+                res.Message = lista.Count > 0 ? "Informacion encotnrada" : "No se encuentra informacion";
+                res.Data = lista.ToList();
+            }
+            catch (Exception ex)
+            {
                 res.IsSuccess = false;
                 res.MessageException = ex.Message;
             }
@@ -54,10 +110,10 @@ namespace Asistencia.Repository.Asistencia
                 parametros.Add("@fechaFin", fechaFin);
                 parametros.Add("@codigoPlanilla", codigoPlanilla);
 
-                lista = (List<AsistenciaResumidoResponse>)await cn.QueryAsync<AsistenciaResumidoResponse>("Spu_Int_Trae_AsistenciaResumido",
+                lista = (List<AsistenciaResumidoResponse>)await cn.QueryAsync<AsistenciaResumidoResponse>("Spu_Int_Trae_CalculoAsistenciaResumido",
                     parametros, commandType: CommandType.StoredProcedure);
                 res.IsSuccess = lista.Count > 0 ? true : false;
-                res.Message = lista.Count > 0 ? "Informacion encotnrada" : "No se neucentra informacion";
+                res.Message = lista.Count > 0 ? "Informacion encotnrada" : "No se encuentra informacion";
                 res.Data = lista.ToList();
             }
             catch (Exception ex)
@@ -67,5 +123,7 @@ namespace Asistencia.Repository.Asistencia
             }
             return res;
         }
+
+        
     }
 }

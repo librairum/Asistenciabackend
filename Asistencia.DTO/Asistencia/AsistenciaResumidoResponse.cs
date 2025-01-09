@@ -16,9 +16,9 @@ namespace Asistencia.DTO.Asistencia
         public string CodigoPlanilla { get; set; }
         public string NombrePlanilla { get; set; }
         public int Dias { get; set; }
-        public int Horas25 { get; set; }
-        public int Horas60 { get; set; }
-        public int Horas100 { get; set; }
+        public string Horas25 { get; set; }
+        public string Horas60 { get; set; }
+        public string  Horas100 { get; set; }
 
 
     }

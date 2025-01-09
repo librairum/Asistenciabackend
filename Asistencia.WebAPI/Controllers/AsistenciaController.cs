@@ -14,14 +14,14 @@ namespace Asistencia.WebAPI.Controllers
         {
             _asistenciApplicacion = asistenciApplicacion;
         }
-        
+
         [HttpGet]
-        [Route("SpListDetalle")]
-        public async Task<ActionResult> SpTraeDetalle(string codigoempleado)
+        [Route("SpListCalculoDetalle")]
+        public async Task<ActionResult> SpTraeDetalle(string fechainicio, string fechafin, string codigoempleado)
         {
             try
             {
-                var result = await this._asistenciApplicacion.TraeDetalle(codigoempleado);
+                var result = await this._asistenciApplicacion.TraeDetalle(fechainicio, fechafin, codigoempleado);
                 return Ok(result);
             }
             catch (Exception ex) {
@@ -32,8 +32,8 @@ namespace Asistencia.WebAPI.Controllers
 
 
         [HttpGet]
-        [Route("SpListResumen")]
-        public async Task<ActionResult> SpTraeResumen(string fechainicio,string fechafin, string codigoplanilla)
+        [Route("SpListCalculoResumen")]
+        public async Task<ActionResult> SpTraeResumen(string fechainicio, string fechafin, string codigoplanilla)
         {
             try
             {
@@ -46,6 +46,35 @@ namespace Asistencia.WebAPI.Controllers
             }
         }
 
-        
+        [HttpGet]
+        [Route("SpListPlanilla")]
+        public async Task<ActionResult> SpTraePlanilla()
+        {
+            try
+            {
+                var result = await this._asistenciApplicacion.TraePlanilla();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("SpListAsistenciGeneral")]
+        public async Task<ActionResult> SpTraeAsistenciaGeneral(string fechainicio, string fechafin) 
+        {
+            try
+            {
+                var result = await this._asistenciApplicacion.TraeAsistenciaGeneral(fechainicio, fechafin);
+                return Ok(result);
+            }
+            catch (Exception ex) {
+                return BadRequest(ex.Message);
+            }
+        }
+    
     }
 }

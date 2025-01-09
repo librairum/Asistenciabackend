@@ -12,6 +12,10 @@ namespace Asistencia.Abstractions.IService
     {
         public Task<ResultDTO<AsistenciaResumidoResponse>> TraeResumen(string fechaInicio,
         string fechaFin, string codigoPlanilla);
-        public Task<ResultDTO<AsistenciaDetalleResponse>> TraeDetalle(string codigoempleado);
+        public Task<ResultDTO<AsistenciaDetalleResponse>> TraeDetalle(string fechainicio, string fechafin, string codigoempleado);
+
+        public Task<ResultDTO<PlanillaResponse>> TraePlanilla();
+
+        public Task<ResultDTO<AsistenciaGeneralResponse>> TraeAsistenciaGeneral(string fechainicio, string fechafin);
     }
 }

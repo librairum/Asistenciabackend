@@ -19,9 +19,19 @@ namespace Asistencia.Application.Asistencia
             _asistenciaServicio = asistenciaServicio;
         }
 
-        public async Task<ResultDTO<AsistenciaDetalleResponse>> TraeDetalle(string codigoempleado)
+        public async Task<ResultDTO<AsistenciaGeneralResponse>> TraeAsistenciaGeneral(string fechainicio, string fechafin)
         {
-            return await this._asistenciaServicio.TraeDetalle(codigoempleado);
+          return await this._asistenciaServicio.TraeAsistenciaGeneral(fechainicio, fechafin);
+        }
+
+        public async Task<ResultDTO<AsistenciaDetalleResponse>> TraeDetalle(string fechainicio, string fechafin, string codigoempleado)
+        {
+            return await this._asistenciaServicio.TraeDetalle(fechainicio, fechafin, codigoempleado);
+        }
+
+        public async Task<ResultDTO<PlanillaResponse>> TraePlanilla()
+        {
+            return await this._asistenciaServicio.TraePlanilla();
         }
 
         public async Task<ResultDTO<AsistenciaResumidoResponse>> TraeResumen(string fechaInicio, string fechaFin, string codigoPlanilla)
