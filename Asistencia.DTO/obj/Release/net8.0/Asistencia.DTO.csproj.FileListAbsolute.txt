@@ -1,0 +1,12 @@
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\bin\Release\net8.0\Asistencia.DTO.deps.json
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\bin\Release\net8.0\Asistencia.DTO.dll
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\bin\Release\net8.0\Asistencia.DTO.pdb
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.AssemblyInfoInputs.cache
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.AssemblyInfo.cs
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.sourcelink.json
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.dll
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\refint\Asistencia.DTO.dll
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.pdb
+C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\ref\Asistencia.DTO.dll

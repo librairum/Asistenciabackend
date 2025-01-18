@@ -58,29 +58,149 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Asistencia.WebAPI.Controllers.AutenticacionController",
-    "Method": "ObtenerUsuario",
-    "RelativePath": "Autenticacion/SpList",
+    "ContainingType": "Asistencia.WebAPI.Controllers.AsistenciaController",
+    "Method": "SpTraeAsistenciaGeneral",
+    "RelativePath": "Asistencia/SpListAsistenciGeneral",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "nombreusuario",
+        "Name": "fechainicio",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "claveusuario",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "codigoempresa",
+        "Name": "fechafin",
         "Type": "System.String",
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.AsistenciaController",
+    "Method": "SpTraeDetalle",
+    "RelativePath": "Asistencia/SpListCalculoDetalle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechainicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechafin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "codigoempleado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.AsistenciaController",
+    "Method": "SpTraeResumen",
+    "RelativePath": "Asistencia/SpListCalculoResumen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechainicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechafin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "codigoplanilla",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.AsistenciaController",
+    "Method": "SpTraePlanilla",
+    "RelativePath": "Asistencia/SpListPlanilla",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.AutenticacionController",
+    "Method": "ObtenerUsuario",
+    "RelativePath": "Autenticacion/SpList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Asistencia.DTO.Autenticacion.AutenticacionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.MarcadorController",
+    "Method": "SpElimina",
+    "RelativePath": "Marcador/SpElimina",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoMarcadorCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "codigoMarcadorProveedor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.MarcadorController",
+    "Method": "SpInserta",
+    "RelativePath": "Marcador/SpInserta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Asistencia.DTO.Marcador.MarcadorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.MarcadorController",
+    "Method": "SpLista",
+    "RelativePath": "Marcador/SpLista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

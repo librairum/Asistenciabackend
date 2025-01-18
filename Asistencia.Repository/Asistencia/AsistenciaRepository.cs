@@ -58,12 +58,13 @@ namespace Asistencia.Repository.Asistencia
                 parametros.Add("@fechaFin", fechafin);               
                 parametros.Add("@codigoempleado", codigoempleado);
                 
-                
                 lista = (List<AsistenciaDetalleResponse>)await cn.QueryAsync<AsistenciaDetalleResponse>("Spu_Int_Trae_CalculoAsistenciaDetalle",
                     parametros, commandType : CommandType.StoredProcedure);
                 res.IsSuccess = lista.Count > 0 ? true : false;
                 res.Message = lista.Count > 0 ? "Informacion encotnrada" : "No se encuentra informacion";
                 res.Data  = lista.ToList();
+
+                
             }
             catch (Exception ex) {
                 res.IsSuccess = false;
@@ -109,7 +110,7 @@ namespace Asistencia.Repository.Asistencia
                 parametros.Add("@fechaInicio", fechaInicio);
                 parametros.Add("@fechaFin", fechaFin);
                 parametros.Add("@codigoPlanilla", codigoPlanilla);
-
+                
                 lista = (List<AsistenciaResumidoResponse>)await cn.QueryAsync<AsistenciaResumidoResponse>("Spu_Int_Trae_CalculoAsistenciaResumido",
                     parametros, commandType: CommandType.StoredProcedure);
                 res.IsSuccess = lista.Count > 0 ? true : false;

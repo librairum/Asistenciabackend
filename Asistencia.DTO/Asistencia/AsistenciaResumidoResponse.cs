@@ -20,6 +20,22 @@ namespace Asistencia.DTO.Asistencia
         public string Horas60 { get; set; }
         public string  Horas100 { get; set; }
 
+        //campos para exportacion de txt
+        public double DiasFalta { get; set; }
+        public string NHraDomPag { get; set; }
+
+        public string NHraFerTra { get; set; }
+
+        public string HturnoManu { get; set; }
+        public string MinTardanza { get; set; }
+
+        public string NHorExtr25 { get; set; }
+        public string NHorExtr35 { get; set; }
+        public string NHorExtr50 { get; set; }
+        public string NHorExtr60 { get; set; }
+
+        public string NHorExtrDo { get; set; }
+
 
     }
 }

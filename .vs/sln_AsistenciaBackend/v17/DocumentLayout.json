@@ -1,34 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\",
+  "WorkspaceRootPath": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|d:\\sistema_kamatera\\backend\\asistenciabackend\\asistencia.dto\\asistencia\\asistenciadetalleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|solutionrelative:asistencia.dto\\asistencia\\asistenciadetalleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|d:\\sistema_kamatera\\backend\\asistenciabackend\\asistencia.dto\\asistencia\\asistenciaresumidoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|solutionrelative:asistencia.dto\\asistencia\\asistenciaresumidoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|d:\\sistema_kamatera\\backend\\asistenciabackend\\asistencia.repository\\asistencia\\asistenciarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\webapi\\asistenciabackend\\asistencia.repository\\asistencia\\asistenciarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|solutionrelative:asistencia.repository\\asistencia\\asistenciarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|d:\\sistema_kamatera\\backend\\asistenciabackend\\asistencia.webapi\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\webapi\\asistenciabackend\\asistencia.dto\\asistencia\\asistenciadetalleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED000C1-9509-4993-B45F-0A7F45243186}|Asistencia.DTO\\Asistencia.DTO.csproj|solutionrelative:asistencia.dto\\asistencia\\asistenciadetalleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\webapi\\asistenciabackend\\asistencia.webapi\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|solutionrelative:asistencia.webapi\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|d:\\sistema_kamatera\\backend\\asistenciabackend\\asistencia.repository\\marcador\\marcadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|c:\\users\\ivan\\documents\\visual studio 2022\\webapi\\asistenciabackend\\asistencia.repository\\marcador\\marcadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|solutionrelative:asistencia.repository\\marcador\\marcadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3443C6-B6ED-4A9D-AA7E-A41F76C34306}|Asistencia.Services\\Asistencia.Services.csproj|d:\\sistema_kamatera\\backend\\asistenciabackend\\asistencia.services\\asistencia\\asistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3443C6-B6ED-4A9D-AA7E-A41F76C34306}|Asistencia.Services\\Asistencia.Services.csproj|solutionrelative:asistencia.services\\asistencia\\asistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31899520-11A6-486E-86DB-7DF6EEBCD018}|Asistencia.Application\\Asistencia.Application.csproj|d:\\sistema_kamatera\\backend\\asistenciabackend\\asistencia.application\\asistencia\\asistenciaapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31899520-11A6-486E-86DB-7DF6EEBCD018}|Asistencia.Application\\Asistencia.Application.csproj|solutionrelative:asistencia.application\\asistencia\\asistenciaapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,81 +30,40 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AsistenciaResumidoResponse.cs",
-              "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.DTO\\Asistencia\\AsistenciaResumidoResponse.cs",
-              "RelativeDocumentMoniker": "Asistencia.DTO\\Asistencia\\AsistenciaResumidoResponse.cs",
-              "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.DTO\\Asistencia\\AsistenciaResumidoResponse.cs",
-              "RelativeToolTip": "Asistencia.DTO\\Asistencia\\AsistenciaResumidoResponse.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:10:55.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AsistenciaService.cs",
-              "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Services\\Asistencia\\AsistenciaService.cs",
-              "RelativeDocumentMoniker": "Asistencia.Services\\Asistencia\\AsistenciaService.cs",
-              "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Services\\Asistencia\\AsistenciaService.cs",
-              "RelativeToolTip": "Asistencia.Services\\Asistencia\\AsistenciaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T15:54:03.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AsistenciaApplication.cs",
-              "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Application\\Asistencia\\AsistenciaApplication.cs",
-              "RelativeDocumentMoniker": "Asistencia.Application\\Asistencia\\AsistenciaApplication.cs",
-              "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Application\\Asistencia\\AsistenciaApplication.cs",
-              "RelativeToolTip": "Asistencia.Application\\Asistencia\\AsistenciaApplication.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T15:53:35.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AsistenciaRepository.cs",
-              "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Repository\\Asistencia\\AsistenciaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.Repository\\Asistencia\\AsistenciaRepository.cs",
               "RelativeDocumentMoniker": "Asistencia.Repository\\Asistencia\\AsistenciaRepository.cs",
-              "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Repository\\Asistencia\\AsistenciaRepository.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.Repository\\Asistencia\\AsistenciaRepository.cs",
               "RelativeToolTip": "Asistencia.Repository\\Asistencia\\AsistenciaRepository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAuwD0AAAA3AAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowDcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T15:48:49.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AsistenciaController.cs",
-              "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\AsistenciaController.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\AsistenciaController.cs",
               "RelativeDocumentMoniker": "Asistencia.WebAPI\\Controllers\\AsistenciaController.cs",
-              "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\AsistenciaController.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\AsistenciaController.cs",
               "RelativeToolTip": "Asistencia.WebAPI\\Controllers\\AsistenciaController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA1wBoAAAAiAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAA5wCcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T15:48:25.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T15:48:25.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MarcadorRepository.cs",
-              "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Repository\\Marcador\\MarcadorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.Repository\\Marcador\\MarcadorRepository.cs",
               "RelativeDocumentMoniker": "Asistencia.Repository\\Marcador\\MarcadorRepository.cs",
-              "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.Repository\\Marcador\\MarcadorRepository.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.Repository\\Marcador\\MarcadorRepository.cs",
               "RelativeToolTip": "Asistencia.Repository\\Marcador\\MarcadorRepository.cs",
               "ViewState": "AQIAAF8AAAAAAAAAAAAwwG0AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T05:26:51.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T05:26:51.581Z"
             }
           ]
         },
@@ -126,15 +73,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AsistenciaDetalleResponse.cs",
-              "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.DTO\\Asistencia\\AsistenciaDetalleResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.DTO\\Asistencia\\AsistenciaDetalleResponse.cs",
               "RelativeDocumentMoniker": "Asistencia.DTO\\Asistencia\\AsistenciaDetalleResponse.cs",
-              "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\Asistenciabackend\\Asistencia.DTO\\Asistencia\\AsistenciaDetalleResponse.cs",
+              "ToolTip": "C:\\Users\\ivan\\Documents\\Visual Studio 2022\\Webapi\\Asistenciabackend\\Asistencia.DTO\\Asistencia\\AsistenciaDetalleResponse.cs",
               "RelativeToolTip": "Asistencia.DTO\\Asistencia\\AsistenciaDetalleResponse.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T16:49:56.177Z",
+              "WhenOpened": "2025-01-18T05:14:51.585Z",
               "EditorCaption": ""
             }
           ]
