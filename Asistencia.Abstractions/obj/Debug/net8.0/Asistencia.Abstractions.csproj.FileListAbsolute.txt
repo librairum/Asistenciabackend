@@ -45,3 +45,19 @@ C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.A
 C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\refint\Asistencia.Abstractions.dll
 C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.pdb
 C:\Users\ivan\Documents\Visual Studio 2022\Webapi\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\ref\Asistencia.Abstractions.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.Abstractions.deps.json
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.Abstractions.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.Abstractions.pdb
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.DTO.pdb
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.csproj.AssemblyReference.cache
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.AssemblyInfoInputs.cache
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.AssemblyInfo.cs
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.csproj.CoreCompileInputs.cache
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.sourcelink.json
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistenc.1E8235A9.Up2Date
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\refint\Asistencia.Abstractions.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.pdb
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\ref\Asistencia.Abstractions.dll

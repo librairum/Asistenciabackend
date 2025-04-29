@@ -33,7 +33,9 @@ namespace Asistencia.DTO.Asistencia
         public string NHorExtr35 { get; set; }
         public string NHorExtr50 { get; set; }
         public string NHorExtr60 { get; set; }
+        public string NHorExtr100Obrero { get; set; }
 
+        public string NHorExtr100 { get; set; }
         public string NHorExtrDo { get; set; }
 
 
