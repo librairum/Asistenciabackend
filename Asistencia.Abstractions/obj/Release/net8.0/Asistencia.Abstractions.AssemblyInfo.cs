@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asistencia.Abstractions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5269b072ed20c7004ff8ee81de2df8812345ee2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c09064560c60c57d7203b6ccd439e02588cd2e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asistencia.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asistencia.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj": {}
+    "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj": {}
   },
   "projects": {
-    "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj": {
+    "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
+        "projectUniqueName": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
         "projectName": "Asistencia.Abstractions",
-        "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
+        "projectPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj",
         "packagesPath": "C:\\Users\\sistemas\\.nuget\\packages\\",
-        "outputPath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Abstractions\\obj\\",
+        "outputPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj": {
-                "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj"
+              "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj": {
+                "projectPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj"
               }
             }
           }
@@ -44,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -65,21 +69,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj": {
+    "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj",
+        "projectUniqueName": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj",
         "projectName": "Asistencia.DTO",
-        "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj",
+        "projectPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.DTO\\Asistencia.DTO.csproj",
         "packagesPath": "C:\\Users\\sistemas\\.nuget\\packages\\",
-        "outputPath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.DTO\\obj\\",
+        "outputPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +95,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -105,7 +112,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -126,21 +134,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj": {
+    "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj",
+        "projectUniqueName": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj",
         "projectName": "Asistencia.Repository",
-        "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj",
+        "projectPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\Asistencia.Repository.csproj",
         "packagesPath": "C:\\Users\\sistemas\\.nuget\\packages\\",
-        "outputPath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Repository\\obj\\",
+        "outputPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,15 +160,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj": {
-                "projectPath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj"
+              "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj": {
+                "projectPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Abstractions\\Asistencia.Abstractions.csproj"
               }
             }
           }
@@ -170,7 +181,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -209,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

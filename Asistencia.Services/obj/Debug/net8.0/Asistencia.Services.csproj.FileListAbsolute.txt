@@ -63,3 +63,21 @@ D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Services\obj\Deb
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\refint\Asistencia.Services.dll
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.pdb
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\ref\Asistencia.Services.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\bin\Debug\net8.0\Asistencia.Services.deps.json
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\bin\Debug\net8.0\Asistencia.Services.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\bin\Debug\net8.0\Asistencia.Services.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\bin\Debug\net8.0\Asistencia.Abstractions.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\bin\Debug\net8.0\Asistencia.DTO.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\bin\Debug\net8.0\Asistencia.Abstractions.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\bin\Debug\net8.0\Asistencia.DTO.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.csproj.AssemblyReference.cache
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.AssemblyInfoInputs.cache
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.AssemblyInfo.cs
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.csproj.CoreCompileInputs.cache
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.sourcelink.json
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistenc.67C85436.Up2Date
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\refint\Asistencia.Services.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\Asistencia.Services.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Services\obj\Debug\net8.0\ref\Asistencia.Services.dll

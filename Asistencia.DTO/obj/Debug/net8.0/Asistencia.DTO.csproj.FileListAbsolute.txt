@@ -45,3 +45,15 @@ D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Debug\ne
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\refint\Asistencia.DTO.dll
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.pdb
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\ref\Asistencia.DTO.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.deps.json
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\bin\Debug\net8.0\Asistencia.DTO.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.AssemblyInfoInputs.cache
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.AssemblyInfo.cs
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.csproj.CoreCompileInputs.cache
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.sourcelink.json
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\refint\Asistencia.DTO.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\Asistencia.DTO.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Debug\net8.0\ref\Asistencia.DTO.dll

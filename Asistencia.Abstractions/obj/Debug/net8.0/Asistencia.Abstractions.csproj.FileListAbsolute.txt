@@ -61,3 +61,19 @@ D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\refint\Asistencia.Abstractions.dll
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.pdb
 D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\ref\Asistencia.Abstractions.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.Abstractions.deps.json
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.Abstractions.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.Abstractions.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.DTO.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\bin\Debug\net8.0\Asistencia.DTO.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.csproj.AssemblyReference.cache
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.AssemblyInfoInputs.cache
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.AssemblyInfo.cs
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.csproj.CoreCompileInputs.cache
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.sourcelink.json
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistenc.1E8235A9.Up2Date
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\refint\Asistencia.Abstractions.dll
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\Asistencia.Abstractions.pdb
+D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.Abstractions\obj\Debug\net8.0\ref\Asistencia.Abstractions.dll
