@@ -8,6 +8,9 @@ using Asistencia.Services.Marcador;
 using Asistencia.Services.Permisos;
 using Asistencia.Services.Perfil;
 using Asistencia.Services.Asistencia;
+using Asistencia.Services.MotivoHorario;
+using Asistencia.Services.Horario;
+using Asistencia.Abstractions.IRepository;
 namespace Asistencia.Services
 {
     public static class ServicesServiceRegister
@@ -21,6 +24,8 @@ namespace Asistencia.Services
             services.AddScoped<IPermisosService, PermisosService>();
             services.AddScoped<IPerfilService, PerfilService>();
             services.AddScoped<IAsistenciaService, AsistenciaService>();
+            services.AddScoped<IHorarioService, HorarioService>();
+            services.AddScoped<IMotivoHorarioService, MotivoHorarioService>();
             //agregar otras clases servicio
             //services.AddScoped<>
             return services;
