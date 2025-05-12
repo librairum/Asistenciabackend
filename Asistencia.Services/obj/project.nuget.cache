@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jXxA1K348KU=",
+  "dgSpecHash": "g764MWfOJpw=",
   "success": true,
-  "projectFilePath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Services\\Asistencia.Services.csproj",
+  "projectFilePath": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Services\\Asistencia.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sistemas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
   ],
