@@ -36,9 +36,9 @@ namespace Asistencia.Application.MotivoHorario
             return await this._service.SpInserta(entidad);
         }
 
-        public async Task<ResultDTO<MotivoHorarioResponse>> SpTraeHorarios()
+        public async Task<ResultDTO<MotivoHorarioResponse>> SpTraeHorarios(string EmpresaCod)
         {
-            return await this._service.SpTraeHorarios();
+            return await this._service.SpTraeHorarios(EmpresaCod);
         }
     }
 }

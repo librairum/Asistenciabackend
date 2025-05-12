@@ -12,7 +12,7 @@ namespace Asistencia.Abstractions.IApplication
     public interface IMotivoHorarioApplication
     {
 
-        public Task<ResultDTO<MotivoHorarioResponse>> SpTraeHorarios();
+        public Task<ResultDTO<MotivoHorarioResponse>> SpTraeHorarios(string EmpresaCod);
         public Task<ResultDTO<string>> SpInserta(MotivoHorarioRequest entidad);
         public Task<ResultDTO<string>> SpActualiza(MotivoHorarioRequest entidad);
         public Task<ResultDTO<string>> SpEliminar(string codigoEmpresa, string codigoMotivo);

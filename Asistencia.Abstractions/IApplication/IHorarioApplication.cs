@@ -10,7 +10,7 @@ namespace Asistencia.Abstractions.IApplication
 {
     public interface IHorarioApplication
     {
-        public Task<ResultDTO<HorarioGeneralResponse>> SpTraeHorarios();
+        public Task<ResultDTO<HorarioGeneralResponse>> SpTraeHorarios(string EmpresaCod);
         public Task<ResultDTO<string>> SpInserta(HorarioRequest entidad);
         public Task<ResultDTO<string>> SpActualiza(HorarioRequest entidad);
     }

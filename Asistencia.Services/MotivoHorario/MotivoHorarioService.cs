@@ -37,9 +37,9 @@ namespace Asistencia.Services.MotivoHorario
         }
 
 
-        public async Task<ResultDTO<MotivoHorarioResponse>> SpTraeHorarios()
+        public async Task<ResultDTO<MotivoHorarioResponse>> SpTraeHorarios(string EmpresaCod)
         {
-            return await this._repository.SpTraeHorarios();
+            return await this._repository.SpTraeHorarios(EmpresaCod);
         }
 
    

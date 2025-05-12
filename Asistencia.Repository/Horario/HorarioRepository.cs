@@ -26,11 +26,11 @@ namespace Asistencia.Repository.Horario
             try
             {
                 SqlConnection cn = new SqlConnection(_connectionString);
-                SqlCommand cmd = new SqlCommand("Spu_Int_Upd_Horarios", cn);
+                SqlCommand cmd = new SqlCommand("Spu_Int_Upd_HorarioPersonal", cn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@EmpresaCod", entidad.EmpresaCod);
                 cmd.Parameters.AddWithValue("@idpersonal", entidad.idpersonal);
-                cmd.Parameters.AddWithValue("@tipodocumento", entidad.tipodocumento);
+                //cmd.Parameters.AddWithValue("@tipodocumento", entidad.tipodocumento);
                 cmd.Parameters.AddWithValue("@dia", entidad.dia);
                 cmd.Parameters.AddWithValue("@motivo", entidad.motivo);
                 cmd.Parameters.AddWithValue("@horaingreso", entidad.horaingreso);
@@ -64,11 +64,11 @@ namespace Asistencia.Repository.Horario
             try
             {
                 SqlConnection cn = new SqlConnection(_connectionString);
-                SqlCommand cmd = new SqlCommand("Spu_Int_Ins_Horarios", cn);
+                SqlCommand cmd = new SqlCommand("Spu_Int_Ins_HorarioPersonal", cn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@EmpresaCod", entidad.EmpresaCod);
                 cmd.Parameters.AddWithValue("@idpersonal", entidad.idpersonal);
-                cmd.Parameters.AddWithValue("@tipodocumento", entidad.tipodocumento);
+                //cmd.Parameters.AddWithValue("@tipodocumento", entidad.tipodocumento);
                 cmd.Parameters.AddWithValue("@dia", entidad.dia);
                 cmd.Parameters.AddWithValue("@motivo", entidad.motivo);
                 cmd.Parameters.AddWithValue("@horaingreso", entidad.horaingreso);
@@ -97,13 +97,14 @@ namespace Asistencia.Repository.Horario
             return result;
         }
 
-        public async Task<ResultDTO<HorarioGeneralResponse>> SpTraeHorarios()
+        public async Task<ResultDTO<HorarioGeneralResponse>> SpTraeHorarios(string EmpresaCod)
         {
             ResultDTO<HorarioGeneralResponse> result = new ResultDTO<HorarioGeneralResponse>();
             List<HorarioGeneralResponse> lista = new List<HorarioGeneralResponse>();
             try {
                 SqlConnection cn = new SqlConnection(_connectionString);
                 DynamicParameters parametros = new DynamicParameters();
+                parametros.Add("@EmpresaCod", EmpresaCod);
                 lista = (List<HorarioGeneralResponse>)await cn.QueryAsync<HorarioGeneralResponse>("Spu_Int_Trae_HorariosGeneral",
                     parametros, commandType: System.Data.CommandType.StoredProcedure);
                 result.IsSuccess = lista.Count > 0 ? true : false;

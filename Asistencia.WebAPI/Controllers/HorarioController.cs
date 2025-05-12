@@ -43,10 +43,10 @@ namespace Asistencia.WebAPI.Controllers
 
         [HttpGet]
         [Route("SpTrae")]
-        public async Task<ActionResult> SpTrae()
+        public async Task<ActionResult> SpTrae(string EmpresaCod)
         {
             try {
-                var result = await this._application.SpTraeHorarios();
+                var result = await this._application.SpTraeHorarios(EmpresaCod);
                 return Ok(result);
             }catch( Exception ex)
             {

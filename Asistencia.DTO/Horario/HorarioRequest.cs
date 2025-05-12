@@ -11,7 +11,7 @@ namespace Asistencia.DTO.Horario
     {
         public string EmpresaCod { get; set; }
         public string idpersonal { get; set; }
-        public string tipodocumento { get; set; }
+        
         public string dia { get; set; }
         public string motivo { get; set; }
         public string horaingreso { get; set; }

@@ -113,7 +113,7 @@ namespace Asistencia.Repository.MotivoHorario
             return result;
         }
 
-        public async Task<ResultDTO<MotivoHorarioResponse>> SpTraeHorarios()
+        public async Task<ResultDTO<MotivoHorarioResponse>> SpTraeHorarios(string EmpresaCod)
         {
             ResultDTO<MotivoHorarioResponse> res = new ResultDTO<MotivoHorarioResponse>();
             List<MotivoHorarioResponse> lista = new List<MotivoHorarioResponse>();
@@ -121,7 +121,9 @@ namespace Asistencia.Repository.MotivoHorario
             try
             {
                 SqlConnection cn = new SqlConnection(_connectionString);
+                
                 DynamicParameters parametros = new DynamicParameters();
+                parametros.Add("@EmpresaCod", EmpresaCod);
                 lista = (List<MotivoHorarioResponse>)await cn.QueryAsync<MotivoHorarioResponse>("Spu_Int_Trae_MotivosHorario", parametros,
                     commandType: CommandType.StoredProcedure);
                 res.IsSuccess = lista.Count > 0 ? true : false;

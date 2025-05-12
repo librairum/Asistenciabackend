@@ -29,9 +29,9 @@ namespace Asistencia.Services.Horario
             return await this._repositorio.SpInserta(entidad);
         }
 
-        public async Task<ResultDTO<HorarioGeneralResponse>> SpTraeHorarios()
+        public async Task<ResultDTO<HorarioGeneralResponse>> SpTraeHorarios(string EmpresaCod)
         {
-            return await this._repositorio.SpTraeHorarios();
+            return await this._repositorio.SpTraeHorarios(EmpresaCod);
         }
     }
 }
