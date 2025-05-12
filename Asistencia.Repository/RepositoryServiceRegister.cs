@@ -7,6 +7,8 @@ using Asistencia.Repository.Marcador;
 using Asistencia.Repository.Permisos;
 using Asistencia.Repository.Perfil;
 using Asistencia.Repository.Asistencia;
+using Asistencia.Repository.MotivoHorario;
+using Asistencia.Repository.Horario;
 
 namespace Asistencia.Repository
 {
@@ -21,6 +23,8 @@ namespace Asistencia.Repository
             services.AddScoped<IPermisosRepository, PermisosRepository>();
             services.AddScoped<IPerfilRepository, PerfilRepository>();
             services.AddScoped<IAsistenciaRepository, AsistenciaRepository>();
+            services.AddScoped<IMotivoHorarioRepository, MotivoHorarioRepository>();
+            services.AddScoped<IHorarioRepository, HorarioRepository>();
             //agregar otras lineas de services segun se crear mas clase reporsitory 
             return services;
         }

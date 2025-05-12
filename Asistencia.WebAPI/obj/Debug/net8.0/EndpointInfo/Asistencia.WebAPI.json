@@ -241,6 +241,80 @@
         }
       }
     },
+    "/Horario/SpActualiza": {
+      "put": {
+        "tags": [
+          "Horario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Horario/SpInserta": {
+      "post": {
+        "tags": [
+          "Horario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Horario/SpTrae": {
+      "get": {
+        "tags": [
+          "Horario"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Marcador/SpLista": {
       "get": {
         "tags": [
@@ -304,6 +378,88 @@
               "type": "string"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/SpActualiza": {
+      "put": {
+        "tags": [
+          "MotivoHorario"
+        ],
+        "parameters": [
+          {
+            "name": "EmpresaCod",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "IdMotivo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Descripcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/SpInserta": {
+      "post": {
+        "tags": [
+          "MotivoHorario"
+        ],
+        "parameters": [
+          {
+            "name": "EmpresaCod",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "IdMotivo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Descripcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/SpTrae": {
+      "get": {
+        "tags": [
+          "MotivoHorario"
         ],
         "responses": {
           "200": {
@@ -632,6 +788,40 @@
             "nullable": true
           },
           "codigoempresa": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HorarioRequest": {
+        "type": "object",
+        "properties": {
+          "empresaCod": {
+            "type": "string",
+            "nullable": true
+          },
+          "idpersonal": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipodocumento": {
+            "type": "string",
+            "nullable": true
+          },
+          "dia": {
+            "type": "string",
+            "nullable": true
+          },
+          "motivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "horaingreso": {
+            "type": "string",
+            "nullable": true
+          },
+          "horasalida": {
             "type": "string",
             "nullable": true
           }
