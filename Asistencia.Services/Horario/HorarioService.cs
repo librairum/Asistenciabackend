@@ -5,6 +5,7 @@ using Asistencia.DTO.Horario;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,6 +33,11 @@ namespace Asistencia.Services.Horario
         public async Task<ResultDTO<HorarioGeneralResponse>> SpTraeHorarios(string EmpresaCod)
         {
             return await this._repositorio.SpTraeHorarios(EmpresaCod);
+        }
+
+        public async Task<ResultDTO<HorarioResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia)
+        {
+            return await this._repositorio.SpTraeHorarioDet(EmpresaCod, idpersonal, dia);
         }
     }
 }

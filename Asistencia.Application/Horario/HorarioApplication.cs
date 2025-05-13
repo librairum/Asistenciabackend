@@ -33,5 +33,12 @@ namespace Asistencia.Application.Horario
         {
             return await this._service.SpTraeHorarios(EmpresaCod);
         }
+
+        public async Task<ResultDTO<HorarioResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia)
+        {
+            return await this._service.SpTraeHorarioDet(EmpresaCod, idpersonal, dia);
+        }
+
+      
     }
 }

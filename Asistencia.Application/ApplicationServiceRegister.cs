@@ -8,6 +8,7 @@ using Asistencia.Application.Permisos;
 using Asistencia.Application.Perfil;
 using Asistencia.Application.Asistencia;
 using Asistencia.Application.MotivoHorario;
+using Asistencia.Application.Horario;
 
 namespace Asistencia.Application
 {
@@ -23,6 +24,7 @@ namespace Asistencia.Application
             services.AddScoped<IPerfilApplication, PerfilApplication>();
             services.AddScoped<IAsistenciaApplication, AsistenciaApplication>();
             services.AddScoped<IMotivoHorarioApplication, MotivoHorarioApplication>();
+            services.AddScoped<IHorarioApplication, HorarioApplication>();
             //agregar mas clases de aplicacion
             return services;
         }
