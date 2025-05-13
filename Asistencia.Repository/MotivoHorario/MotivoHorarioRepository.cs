@@ -26,16 +26,17 @@ namespace Asistencia.Repository.MotivoHorario
             try
             {
                 SqlConnection cn = new SqlConnection(_connectionString);
-                SqlCommand cmd = new SqlCommand("Spu_Int_Upd_MotivoHorario");
-                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                SqlCommand cmd = new SqlCommand("Spu_Int_Upd_MotivoHorario",cn);
+                
                 cmd.Parameters.AddWithValue("@EmpresaCod", entidad.EmpresaCod);
                 cmd.Parameters.AddWithValue("@IdMotivo", entidad.IdMotivo);
                 cmd.Parameters.AddWithValue("@Descripcion", entidad.Descripcion);
-                var parFlag = cmd.Parameters.Add("@flag", System.Data.SqlDbType.VarChar);
+                var parFlag = cmd.Parameters.Add("@flag", System.Data.SqlDbType.Int);
                 parFlag.Direction = System.Data.ParameterDirection.Output;
 
-                var parMensaje = cmd.Parameters.Add("@mensaje", System.Data.SqlDbType.VarChar);
+                var parMensaje = cmd.Parameters.Add("@mensaje", System.Data.SqlDbType.VarChar,200);
                 parMensaje.Direction = System.Data.ParameterDirection.Output;
+                cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 var respuesta = await cmd.ExecuteNonQueryAsync(); 
                 cn.Close();
