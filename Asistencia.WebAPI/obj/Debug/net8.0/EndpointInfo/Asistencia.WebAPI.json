@@ -308,6 +308,50 @@
         "tags": [
           "Horario"
         ],
+        "parameters": [
+          {
+            "name": "EmpresaCod",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Horario/SpTraeDet": {
+      "get": {
+        "tags": [
+          "Horario"
+        ],
+        "parameters": [
+          {
+            "name": "empresaCod",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "idpersonal",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -456,10 +500,47 @@
         }
       }
     },
+    "/SpElimina": {
+      "delete": {
+        "tags": [
+          "MotivoHorario"
+        ],
+        "parameters": [
+          {
+            "name": "EmpresaCod",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "IdMotivo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/SpTrae": {
       "get": {
         "tags": [
           "MotivoHorario"
+        ],
+        "parameters": [
+          {
+            "name": "EmpresaCod",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -802,10 +883,6 @@
             "nullable": true
           },
           "idpersonal": {
-            "type": "string",
-            "nullable": true
-          },
-          "tipodocumento": {
             "type": "string",
             "nullable": true
           },

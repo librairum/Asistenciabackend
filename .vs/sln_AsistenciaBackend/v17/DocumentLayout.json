@@ -62,8 +62,7 @@
               "RelativeToolTip": "Asistencia.Services\\MotivoHorario\\MotivoHorarioService.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T22:06:15.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T22:06:15.555Z"
             },
             {
               "$type": "Document",
@@ -87,7 +86,8 @@
               "RelativeToolTip": "Asistencia.Repository\\MotivoHorario\\MotivoHorarioRepository.cs",
               "ViewState": "AQIAAGUAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T22:05:58.224Z"
+              "WhenOpened": "2025-05-12T22:05:58.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -109,7 +109,7 @@
               "RelativeDocumentMoniker": "Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
               "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
               "RelativeToolTip": "Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAwEsAAAAAAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwDcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T22:01:58.985Z",
               "EditorCaption": ""

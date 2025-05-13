@@ -118,5 +118,30 @@ namespace Asistencia.Repository.Horario
             }
             return result;
         }
+
+        public async Task<ResultDTO<HorarioResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia)
+        {
+            ResultDTO<HorarioResponse> result = new ResultDTO<HorarioResponse>();
+            List<HorarioResponse> lista = new List<HorarioResponse>();
+            try
+            {
+                SqlConnection cn = new SqlConnection(_connectionString);
+                DynamicParameters parametros = new DynamicParameters();
+                parametros.Add("@EmpresaCod", EmpresaCod);
+                parametros.Add("@idpersonal", idpersonal);
+                parametros.Add("@dia", dia);
+                lista = (List<HorarioResponse>)await cn.QueryAsync<HorarioResponse>("Spu_Int_Trae_HorarioPersonal",
+                    parametros, commandType: System.Data.CommandType.StoredProcedure);
+                result.IsSuccess = lista.Count > 0 ? true : false;
+                result.Message = lista.Count > 0 ? "Informacion encontrada" : "informacion no encontrdo";
+                result.Data = lista.ToList();
+
+            }
+            catch (Exception ex) {
+                result.IsSuccess = false;
+                result.MessageException = ex.Message;
+            }
+            return result;
+        }
     }
 }

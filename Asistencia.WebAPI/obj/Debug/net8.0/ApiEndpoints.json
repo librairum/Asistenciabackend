@@ -195,7 +195,39 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "EmpresaCod",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioController",
+    "Method": "SpTraeHorarioDet",
+    "RelativePath": "Horario/SpTraeDet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresaCod",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idpersonal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dia",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -389,6 +421,27 @@
   },
   {
     "ContainingType": "Asistencia.WebAPI.Controllers.MotivoHorarioController",
+    "Method": "SpElimina",
+    "RelativePath": "SpElimina",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmpresaCod",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdMotivo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.MotivoHorarioController",
     "Method": "SpInserta",
     "RelativePath": "SpInserta",
     "HttpMethod": "POST",
@@ -420,7 +473,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "EmpresaCod",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

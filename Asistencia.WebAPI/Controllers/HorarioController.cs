@@ -1,5 +1,6 @@
 ﻿using Asistencia.Abstractions.IApplication;
 using Asistencia.DTO.Horario;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Asistencia.WebAPI.Controllers
@@ -47,6 +48,19 @@ namespace Asistencia.WebAPI.Controllers
         {
             try {
                 var result = await this._application.SpTraeHorarios(EmpresaCod);
+                return Ok(result);
+            }catch( Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("SpTraeDet")]
+        public async Task<ActionResult> SpTraeHorarioDet(string empresaCod,string idpersonal, string dia)
+        {
+            try {
+                var result = await this._application.SpTraeHorarioDet(empresaCod, idpersonal, dia);
                 return Ok(result);
             }catch( Exception ex)
             {

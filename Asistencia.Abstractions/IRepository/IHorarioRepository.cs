@@ -13,5 +13,6 @@ namespace Asistencia.Abstractions.IRepository
         public Task<ResultDTO<HorarioGeneralResponse>> SpTraeHorarios(string EmpresaCod);
         public Task<ResultDTO<string>> SpInserta(HorarioRequest entidad);
         public Task<ResultDTO<string>> SpActualiza(HorarioRequest entidad);
+        public Task<ResultDTO<HorarioResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia);
     }
 }
