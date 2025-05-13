@@ -415,6 +415,11 @@
         "Name": "Descripcion",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "flagCalculaTiempo",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -460,6 +465,11 @@
       },
       {
         "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "flagCalculaTiempo",
         "Type": "System.String",
         "IsRequired": false
       }

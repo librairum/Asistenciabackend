@@ -456,6 +456,13 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "flagCalculaTiempo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -487,6 +494,13 @@
           },
           {
             "name": "Descripcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "flagCalculaTiempo",
             "in": "query",
             "schema": {
               "type": "string"

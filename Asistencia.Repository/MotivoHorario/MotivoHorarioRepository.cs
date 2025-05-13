@@ -31,6 +31,7 @@ namespace Asistencia.Repository.MotivoHorario
                 cmd.Parameters.AddWithValue("@EmpresaCod", entidad.EmpresaCod);
                 cmd.Parameters.AddWithValue("@IdMotivo", entidad.IdMotivo);
                 cmd.Parameters.AddWithValue("@Descripcion", entidad.Descripcion);
+                cmd.Parameters.AddWithValue("@flagCalculaTiempo", entidad.flagCalculaTiempo);
                 var parFlag = cmd.Parameters.Add("@flag", System.Data.SqlDbType.Int);
                 parFlag.Direction = System.Data.ParameterDirection.Output;
 
@@ -92,6 +93,7 @@ namespace Asistencia.Repository.MotivoHorario
                 cmd.Parameters.AddWithValue("@EmpresaCod", entidad.EmpresaCod);
                 cmd.Parameters.AddWithValue("@IdMotivo", entidad.IdMotivo);
                 cmd.Parameters.AddWithValue("@Descripcion", entidad.Descripcion);
+                cmd.Parameters.AddWithValue("@flagCalculaTiempo", entidad.flagCalculaTiempo);
                 var parFlag = cmd.Parameters.Add("@flag", SqlDbType.Int);
                 parFlag.Direction = ParameterDirection.Output;
 
