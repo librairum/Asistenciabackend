@@ -10,6 +10,7 @@ namespace Asistencia.DTO.Horario
     public class HorarioGeneralResponse
     {
 
+        public int IdEmpleado { get; set; }
         public string nroDocumento { get; set; }
         public string TipoDocumento { get; set; }
         public string Apellidos { get; set; }

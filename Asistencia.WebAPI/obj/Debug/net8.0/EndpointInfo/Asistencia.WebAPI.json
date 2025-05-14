@@ -241,26 +241,26 @@
         }
       }
     },
-    "/Horario/SpActualiza": {
+    "/HorarioPersonal/SpActualiza": {
       "put": {
         "tags": [
-          "Horario"
+          "HorarioPersonal"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HorarioRequest"
+                "$ref": "#/components/schemas/HorarioPersonalRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HorarioRequest"
+                "$ref": "#/components/schemas/HorarioPersonalRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HorarioRequest"
+                "$ref": "#/components/schemas/HorarioPersonalRequest"
               }
             }
           }
@@ -272,26 +272,26 @@
         }
       }
     },
-    "/Horario/SpInserta": {
+    "/HorarioPersonal/SpInserta": {
       "post": {
         "tags": [
-          "Horario"
+          "HorarioPersonal"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HorarioRequest"
+                "$ref": "#/components/schemas/HorarioPersonalRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HorarioRequest"
+                "$ref": "#/components/schemas/HorarioPersonalRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HorarioRequest"
+                "$ref": "#/components/schemas/HorarioPersonalRequest"
               }
             }
           }
@@ -303,10 +303,10 @@
         }
       }
     },
-    "/Horario/SpTrae": {
+    "/HorarioPersonal/SpTrae": {
       "get": {
         "tags": [
-          "Horario"
+          "HorarioPersonal"
         ],
         "parameters": [
           {
@@ -324,10 +324,10 @@
         }
       }
     },
-    "/Horario/SpTraeDet": {
+    "/HorarioPersonal/SpTraeDet": {
       "get": {
         "tags": [
-          "Horario"
+          "HorarioPersonal"
         ],
         "parameters": [
           {
@@ -346,6 +346,27 @@
           },
           {
             "name": "dia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/HorarioPersonal/SpActualizaMasivo": {
+      "put": {
+        "tags": [
+          "HorarioPersonal"
+        ],
+        "parameters": [
+          {
+            "name": "xmlmasivo",
             "in": "query",
             "schema": {
               "type": "string"
@@ -456,6 +477,13 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "flagCalculaTiempo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -487,6 +515,13 @@
           },
           {
             "name": "Descripcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "flagCalculaTiempo",
             "in": "query",
             "schema": {
               "type": "string"
@@ -875,22 +910,22 @@
         },
         "additionalProperties": false
       },
-      "HorarioRequest": {
+      "HorarioPersonalRequest": {
         "type": "object",
         "properties": {
           "empresaCod": {
             "type": "string",
             "nullable": true
           },
-          "idpersonal": {
-            "type": "string",
-            "nullable": true
+          "idEmpleado": {
+            "type": "integer",
+            "format": "int32"
           },
           "dia": {
             "type": "string",
             "nullable": true
           },
-          "motivo": {
+          "idMotivo": {
             "type": "string",
             "nullable": true
           },

@@ -157,41 +157,57 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioController",
+    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioPersonalController",
     "Method": "SpActualiza",
-    "RelativePath": "Horario/SpActualiza",
+    "RelativePath": "HorarioPersonal/SpActualiza",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "Asistencia.DTO.Horario.HorarioRequest",
+        "Type": "Asistencia.DTO.Horario.HorarioPersonalRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioController",
+    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioPersonalController",
+    "Method": "SpActualizaHorariosMasivo",
+    "RelativePath": "HorarioPersonal/SpActualizaMasivo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "xmlmasivo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioPersonalController",
     "Method": "SpInserta",
-    "RelativePath": "Horario/SpInserta",
+    "RelativePath": "HorarioPersonal/SpInserta",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "Asistencia.DTO.Horario.HorarioRequest",
+        "Type": "Asistencia.DTO.Horario.HorarioPersonalRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioController",
+    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioPersonalController",
     "Method": "SpTrae",
-    "RelativePath": "Horario/SpTrae",
+    "RelativePath": "HorarioPersonal/SpTrae",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -205,9 +221,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioController",
+    "ContainingType": "Asistencia.WebAPI.Controllers.HorarioPersonalController",
     "Method": "SpTraeHorarioDet",
-    "RelativePath": "Horario/SpTraeDet",
+    "RelativePath": "HorarioPersonal/SpTraeDet",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -415,6 +431,11 @@
         "Name": "Descripcion",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "flagCalculaTiempo",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -460,6 +481,11 @@
       },
       {
         "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "flagCalculaTiempo",
         "Type": "System.String",
         "IsRequired": false
       }

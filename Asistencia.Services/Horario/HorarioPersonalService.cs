@@ -11,21 +11,21 @@ using System.Threading.Tasks;
 
 namespace Asistencia.Services.Horario
 {
-    public class HorarioService : IHorarioService
+    public class HorarioPersonalService : IHorarioPersonalService
     {
 
-        private IHorarioRepository _repositorio; 
-        public HorarioService(IHorarioRepository repositorio)
+        private IHorarioPersonalRepository _repositorio; 
+        public HorarioPersonalService(IHorarioPersonalRepository repositorio)
         {
             _repositorio = repositorio;
         }
 
-        public async Task<ResultDTO<string>> SpActualiza(HorarioRequest entidad)
+        public async Task<ResultDTO<string>> SpActualiza(HorarioPersonalRequest entidad)
         {
             return await this._repositorio.SpActualiza(entidad);
         }
 
-        public async Task<ResultDTO<string>> SpInserta(HorarioRequest entidad)
+        public async Task<ResultDTO<string>> SpInserta(HorarioPersonalRequest entidad)
         {
             return await this._repositorio.SpInserta(entidad);
         }
@@ -35,9 +35,14 @@ namespace Asistencia.Services.Horario
             return await this._repositorio.SpTraeHorarios(EmpresaCod);
         }
 
-        public async Task<ResultDTO<HorarioResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia)
+        public async Task<ResultDTO<HorarioPersonalResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia)
         {
             return await this._repositorio.SpTraeHorarioDet(EmpresaCod, idpersonal, dia);
+        }
+
+        public async Task<ResultDTO<string>> SpActualizaHorariosMasivo(string xmlhorarios)
+        {
+            return await this._repositorio.SpActualizaHorariosMasivo(xmlhorarios);
         }
     }
 }

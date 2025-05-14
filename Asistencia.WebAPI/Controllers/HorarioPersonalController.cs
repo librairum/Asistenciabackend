@@ -7,17 +7,17 @@ namespace Asistencia.WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class HorarioController : Controller
+    public class HorarioPersonalController : Controller
     {
-        private IHorarioApplication _application;
-        public HorarioController(IHorarioApplication application)
+        private IHorarioPersonalApplication _application;
+        public HorarioPersonalController(IHorarioPersonalApplication application)
         {
             _application = application;
         }
 
         [HttpPut]
         [Route("SpActualiza")]
-        public async Task<ActionResult> SpActualiza(HorarioRequest entidad)
+        public async Task<ActionResult> SpActualiza(HorarioPersonalRequest entidad)
         {
             try {
                 var result = await this._application.SpActualiza(entidad);
@@ -30,7 +30,7 @@ namespace Asistencia.WebAPI.Controllers
 
         [HttpPost]
         [Route("SpInserta")]
-        public async Task<ActionResult> SpInserta(HorarioRequest entidad)
+        public async Task<ActionResult> SpInserta(HorarioPersonalRequest entidad)
         {
 
             try {
@@ -63,6 +63,20 @@ namespace Asistencia.WebAPI.Controllers
                 var result = await this._application.SpTraeHorarioDet(empresaCod, idpersonal, dia);
                 return Ok(result);
             }catch( Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        [Route("SpActualizaMasivo")]
+        public async Task<ActionResult> SpActualizaHorariosMasivo(string xmlmasivo)
+        {
+            try
+            {
+                var result = await this._application.SpActualizaHorariosMasivo(xmlmasivo);
+                return Ok(result);
+            }catch(Exception ex)
             {
                 return BadRequest(ex.Message);
             }

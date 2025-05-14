@@ -24,7 +24,7 @@ namespace Asistencia.Application
             services.AddScoped<IPerfilApplication, PerfilApplication>();
             services.AddScoped<IAsistenciaApplication, AsistenciaApplication>();
             services.AddScoped<IMotivoHorarioApplication, MotivoHorarioApplication>();
-            services.AddScoped<IHorarioApplication, HorarioApplication>();
+            services.AddScoped<IHorarioPersonalApplication, HorarioPersonalApplication>();
             //agregar mas clases de aplicacion
             return services;
         }

@@ -23,20 +23,20 @@
       "RelativeMoniker": "D:0:0:{90F7BC02-8B55-4344-93E3-BAD77A739FF1}|Asistencia.Abstractions\\Asistencia.Abstractions.csproj|solutionrelative:asistencia.abstractions\\iapplication\\imotivohorarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|d:\\sistema_kamatera\\backend\\github\\asistenciabackend\\asistencia.repository\\horario\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|solutionrelative:asistencia.repository\\horario\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\HorarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Asistencia.WebAPI\\Controllers\\HorarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|d:\\sistema_kamatera\\backend\\github\\asistenciabackend\\asistencia.webapi\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|solutionrelative:asistencia.webapi\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Application\\Horario\\HorarioApplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Asistencia.Application\\Horario\\HorarioApplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31899520-11A6-486E-86DB-7DF6EEBCD018}|Asistencia.Application\\Asistencia.Application.csproj|d:\\sistema_kamatera\\backend\\github\\asistenciabackend\\asistencia.application\\horario\\horarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31899520-11A6-486E-86DB-7DF6EEBCD018}|Asistencia.Application\\Asistencia.Application.csproj|solutionrelative:asistencia.application\\horario\\horarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Services\\Horario\\HorarioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Asistencia.Services\\Horario\\HorarioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B3443C6-B6ED-4A9D-AA7E-A41F76C34306}|Asistencia.Services\\Asistencia.Services.csproj|d:\\sistema_kamatera\\backend\\github\\asistenciabackend\\asistencia.services\\horario\\horarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3443C6-B6ED-4A9D-AA7E-A41F76C34306}|Asistencia.Services\\Asistencia.Services.csproj|solutionrelative:asistencia.services\\horario\\horarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Repository\\Horario\\HorarioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Asistencia.Repository\\Horario\\HorarioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -108,14 +108,14 @@
               "RelativeDocumentMoniker": "Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
               "ToolTip": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
               "RelativeToolTip": "Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEQAAAAJAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T22:01:58.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "HorarioController.cs",
               "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\HorarioController.cs",
               "RelativeDocumentMoniker": "Asistencia.WebAPI\\Controllers\\HorarioController.cs",
@@ -123,11 +123,11 @@
               "RelativeToolTip": "Asistencia.WebAPI\\Controllers\\HorarioController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T20:34:31.759Z"
+              "WhenOpened": "2025-05-14T17:25:02.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "HorarioApplication.cs",
               "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Application\\Horario\\HorarioApplication.cs",
               "RelativeDocumentMoniker": "Asistencia.Application\\Horario\\HorarioApplication.cs",
@@ -135,11 +135,11 @@
               "RelativeToolTip": "Asistencia.Application\\Horario\\HorarioApplication.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCEAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T20:33:50.019Z"
+              "WhenOpened": "2025-05-14T17:25:02.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "HorarioService.cs",
               "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Services\\Horario\\HorarioService.cs",
               "RelativeDocumentMoniker": "Asistencia.Services\\Horario\\HorarioService.cs",
@@ -147,11 +147,11 @@
               "RelativeToolTip": "Asistencia.Services\\Horario\\HorarioService.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAA1wCEAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T20:33:33.921Z"
+              "WhenOpened": "2025-05-14T17:25:02.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "HorarioRepository.cs",
               "DocumentMoniker": "D:\\SISTEMA_KAMATERA\\Backend\\github\\Asistenciabackend\\Asistencia.Repository\\Horario\\HorarioRepository.cs",
               "RelativeDocumentMoniker": "Asistencia.Repository\\Horario\\HorarioRepository.cs",
@@ -159,7 +159,7 @@
               "RelativeToolTip": "Asistencia.Repository\\Horario\\HorarioRepository.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAowEIAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T20:06:47.61Z"
+              "WhenOpened": "2025-05-14T17:25:02.237Z"
             }
           ]
         }
