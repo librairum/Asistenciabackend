@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Asistencia.DTO.Horario
 {
-    public class HorarioRequest
+    public class HorarioPersonalRequest
     {
         public string EmpresaCod { get; set; }
-        public string idpersonal { get; set; }
+        public int IdEmpleado { get; set; }
         
         public string dia { get; set; }
-        public string motivo { get; set; }
+        public string IdMotivo { get; set; }
         public string horaingreso { get; set; }
         public string horasalida { get; set; }
 

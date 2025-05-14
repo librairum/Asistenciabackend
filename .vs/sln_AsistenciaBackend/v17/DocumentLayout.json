@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|d:\\trabajo\\nivargo\\asistencia kamatera\\asistenciabackend\\asistencia.repository\\motivohorario\\motivohorariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|solutionrelative:asistencia.repository\\motivohorario\\motivohorariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|d:\\trabajo\\nivargo\\asistencia kamatera\\asistenciabackend\\asistencia.webapi\\controllers\\horariopersonalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|solutionrelative:asistencia.webapi\\controllers\\horariopersonalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|d:\\trabajo\\nivargo\\asistencia kamatera\\asistenciabackend\\asistencia.webapi\\controllers\\motivohorariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|solutionrelative:asistencia.webapi\\controllers\\motivohorariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|d:\\trabajo\\nivargo\\asistencia kamatera\\asistenciabackend\\asistencia.webapi\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77DB79C7-45E2-4834-9BD4-FCFC4A4508FD}|Asistencia.WebAPI\\Asistencia.WebAPI.csproj|solutionrelative:asistencia.webapi\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|d:\\trabajo\\nivargo\\asistencia kamatera\\asistenciabackend\\asistencia.repository\\horario\\horariopersonalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD17D1F-35C3-419E-9D41-66F084D4A49C}|Asistencia.Repository\\Asistencia.Repository.csproj|solutionrelative:asistencia.repository\\horario\\horariopersonalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,55 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 257,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 143,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MotivoHorarioRepository.cs",
-              "DocumentMoniker": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\MotivoHorario\\MotivoHorarioRepository.cs",
-              "RelativeDocumentMoniker": "Asistencia.Repository\\MotivoHorario\\MotivoHorarioRepository.cs",
-              "ToolTip": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\MotivoHorario\\MotivoHorarioRepository.cs",
-              "RelativeToolTip": "Asistencia.Repository\\MotivoHorario\\MotivoHorarioRepository.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGYAAAAaAAAAAAAAAA==",
+              "Title": "HorarioPersonalController.cs",
+              "DocumentMoniker": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\HorarioPersonalController.cs",
+              "RelativeDocumentMoniker": "Asistencia.WebAPI\\Controllers\\HorarioPersonalController.cs",
+              "ToolTip": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\HorarioPersonalController.cs",
+              "RelativeToolTip": "Asistencia.WebAPI\\Controllers\\HorarioPersonalController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:05:22.112Z",
+              "WhenOpened": "2025-05-14T05:48:47.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MotivoHorarioController.cs",
-              "DocumentMoniker": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
-              "RelativeDocumentMoniker": "Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
-              "ToolTip": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
-              "RelativeToolTip": "Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBUAAAAPAAAAAAAAAA==",
+              "Title": "HorarioPersonalRepository.cs",
+              "DocumentMoniker": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\Horario\\HorarioPersonalRepository.cs",
+              "RelativeDocumentMoniker": "Asistencia.Repository\\Horario\\HorarioPersonalRepository.cs",
+              "ToolTip": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.Repository\\Horario\\HorarioPersonalRepository.cs",
+              "RelativeToolTip": "Asistencia.Repository\\Horario\\HorarioPersonalRepository.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAmwJIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:06:24.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HorarioController.cs",
-              "DocumentMoniker": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\HorarioController.cs",
-              "RelativeDocumentMoniker": "Asistencia.WebAPI\\Controllers\\HorarioController.cs",
-              "ToolTip": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.WebAPI\\Controllers\\HorarioController.cs",
-              "RelativeToolTip": "Asistencia.WebAPI\\Controllers\\HorarioController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAArwC0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T20:34:31.759Z",
+              "WhenOpened": "2025-05-14T05:42:34Z",
               "EditorCaption": ""
             }
           ]

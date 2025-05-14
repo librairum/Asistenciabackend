@@ -24,7 +24,7 @@ namespace Asistencia.Services
             services.AddScoped<IPermisosService, PermisosService>();
             services.AddScoped<IPerfilService, PerfilService>();
             services.AddScoped<IAsistenciaService, AsistenciaService>();
-            services.AddScoped<IHorarioService, HorarioService>();
+            services.AddScoped<IHorarioPersonalService, HorarioPersonalService>();
             services.AddScoped<IMotivoHorarioService, MotivoHorarioService>();
             //agregar otras clases servicio
             //services.AddScoped<>

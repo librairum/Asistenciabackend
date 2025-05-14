@@ -12,15 +12,15 @@ using System.Data;
 using Dapper;
 namespace Asistencia.Repository.Horario
 {
-    public class HorarioRepository : IHorarioRepository
+    public class HorarioPersonalRepository : IHorarioPersonalRepository
     {
 
         private string _connectionString = "";
-        public HorarioRepository(IConfiguration configuracion)
+        public HorarioPersonalRepository(IConfiguration configuracion)
         {
             this._connectionString = configuracion.GetConnectionString("conexion");
         }
-        public async Task<ResultDTO<string>> SpActualiza(HorarioRequest entidad)
+        public async Task<ResultDTO<string>> SpActualiza(HorarioPersonalRequest entidad)
         {
             ResultDTO<string> result = new ResultDTO<string>();
             try
@@ -29,23 +29,23 @@ namespace Asistencia.Repository.Horario
                 SqlCommand cmd = new SqlCommand("Spu_Int_Upd_HorarioPersonal", cn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@EmpresaCod", entidad.EmpresaCod);
-                cmd.Parameters.AddWithValue("@idpersonal", entidad.idpersonal);
+                cmd.Parameters.AddWithValue("@IdEmpleado", entidad.IdEmpleado);
                 //cmd.Parameters.AddWithValue("@tipodocumento", entidad.tipodocumento);
                 cmd.Parameters.AddWithValue("@dia", entidad.dia);
-                cmd.Parameters.AddWithValue("@motivo", entidad.motivo);
+                cmd.Parameters.AddWithValue("@IdMotivo", entidad.IdMotivo);
                 cmd.Parameters.AddWithValue("@horaingreso", entidad.horaingreso);
                 cmd.Parameters.AddWithValue("@horasalida", entidad.horasalida);
                 var parFlag = cmd.Parameters.Add("@flag", SqlDbType.Int);
                 parFlag.Direction = ParameterDirection.Output;
 
-                var parMensaje = cmd.Parameters.Add("@mensaje", SqlDbType.VarChar);
+                var parMensaje = cmd.Parameters.Add("@mensaje", SqlDbType.VarChar,200);
                 parMensaje.Direction = ParameterDirection.Output;
 
                 cn.Open();
                 var respuesta = await cmd.ExecuteNonQueryAsync();
                 cn.Close();
 
-                result.Item = entidad.idpersonal;
+                result.Item = entidad.IdEmpleado.ToString();
                 result.IsSuccess = parFlag.Value.ToString() == "1" ? true : false;
                 result.Message = parMensaje.Value.ToString();
             }
@@ -58,7 +58,7 @@ namespace Asistencia.Repository.Horario
             return result;
         }
 
-        public async Task<ResultDTO<string>> SpInserta(HorarioRequest entidad)
+        public async Task<ResultDTO<string>> SpInserta(HorarioPersonalRequest entidad)
         {
             ResultDTO<string> result = new ResultDTO<string>();
             try
@@ -67,23 +67,23 @@ namespace Asistencia.Repository.Horario
                 SqlCommand cmd = new SqlCommand("Spu_Int_Ins_HorarioPersonal", cn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@EmpresaCod", entidad.EmpresaCod);
-                cmd.Parameters.AddWithValue("@idpersonal", entidad.idpersonal);
+                cmd.Parameters.AddWithValue("@IdEmpleado", entidad.IdEmpleado);
                 //cmd.Parameters.AddWithValue("@tipodocumento", entidad.tipodocumento);
                 cmd.Parameters.AddWithValue("@dia", entidad.dia);
-                cmd.Parameters.AddWithValue("@motivo", entidad.motivo);
+                cmd.Parameters.AddWithValue("@IdMotivo", entidad.IdMotivo);
                 cmd.Parameters.AddWithValue("@horaingreso", entidad.horaingreso);
                 cmd.Parameters.AddWithValue("@horasalida", entidad.horasalida);
                 var parFlag = cmd.Parameters.Add("@flag", SqlDbType.Int);
                 parFlag.Direction = ParameterDirection.Output;
 
-                var parMensaje = cmd.Parameters.Add("@mensaje", SqlDbType.VarChar);
+                var parMensaje = cmd.Parameters.Add("@mensaje", SqlDbType.VarChar, 200);
                 parMensaje.Direction = ParameterDirection.Output;
 
                 cn.Open();
                 var respuesta = await cmd.ExecuteNonQueryAsync();
                 cn.Close();
 
-                result.Item = entidad.idpersonal;
+                result.Item = entidad.IdEmpleado.ToString();
                 result.IsSuccess = parFlag.Value.ToString() == "1" ? true : false;
                 result.Message = parMensaje.Value.ToString();
             }
@@ -119,18 +119,18 @@ namespace Asistencia.Repository.Horario
             return result;
         }
 
-        public async Task<ResultDTO<HorarioResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia)
+        public async Task<ResultDTO<HorarioPersonalResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia)
         {
-            ResultDTO<HorarioResponse> result = new ResultDTO<HorarioResponse>();
-            List<HorarioResponse> lista = new List<HorarioResponse>();
+            ResultDTO<HorarioPersonalResponse> result = new ResultDTO<HorarioPersonalResponse>();
+            List<HorarioPersonalResponse> lista = new List<HorarioPersonalResponse>();
             try
             {
                 SqlConnection cn = new SqlConnection(_connectionString);
                 DynamicParameters parametros = new DynamicParameters();
                 parametros.Add("@EmpresaCod", EmpresaCod);
-                parametros.Add("@idpersonal", idpersonal);
+                parametros.Add("@IdEmpleado", idpersonal);
                 parametros.Add("@dia", dia);
-                lista = (List<HorarioResponse>)await cn.QueryAsync<HorarioResponse>("Spu_Int_Trae_HorarioPersonal",
+                lista = (List<HorarioPersonalResponse>)await cn.QueryAsync<HorarioPersonalResponse>("Spu_Int_Trae_HorarioPersonal",
                     parametros, commandType: System.Data.CommandType.StoredProcedure);
                 result.IsSuccess = lista.Count > 0 ? true : false;
                 result.Message = lista.Count > 0 ? "Informacion encontrada" : "informacion no encontrdo";
@@ -142,6 +142,40 @@ namespace Asistencia.Repository.Horario
                 result.MessageException = ex.Message;
             }
             return result;
+        }
+
+        public async Task<ResultDTO<string>> SpActualizaHorariosMasivo(string xmlhorarios)
+        {
+
+            ResultDTO<string> result = new ResultDTO<string>();
+
+            try {
+                SqlConnection cn = new SqlConnection(_connectionString);
+                SqlCommand cmd = new SqlCommand("Spu_Int_Upd_HorariosPersonalMasivo", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@xmlhorarios", xmlhorarios);
+
+                var parFlag = cmd.Parameters.Add("@flag", SqlDbType.Int);
+                parFlag.Direction = ParameterDirection.Output;
+
+                var parMensaje = cmd.Parameters.Add("@mensaje", SqlDbType.VarChar, 200);
+                parMensaje.Direction = ParameterDirection.Output;
+
+                cn.Open();
+                var respuesta = await cmd.ExecuteNonQueryAsync();
+                cn.Close();
+                result.Item = "1";
+                result.IsSuccess = parFlag.Value.ToString() == "1" ? true : false;
+                result.Message = parMensaje.Value.ToString();
+
+            }
+            catch (Exception ex)
+            {
+                result.MessageException = ex.Message;
+                result.IsSuccess = false;
+            }
+            return result;
+
         }
     }
 }

@@ -24,7 +24,7 @@ namespace Asistencia.Repository
             services.AddScoped<IPerfilRepository, PerfilRepository>();
             services.AddScoped<IAsistenciaRepository, AsistenciaRepository>();
             services.AddScoped<IMotivoHorarioRepository, MotivoHorarioRepository>();
-            services.AddScoped<IHorarioRepository, HorarioRepository>();
+            services.AddScoped<IHorarioPersonalRepository, HorarioPersonalRepository>();
             //agregar otras lineas de services segun se crear mas clase reporsitory 
             return services;
         }
