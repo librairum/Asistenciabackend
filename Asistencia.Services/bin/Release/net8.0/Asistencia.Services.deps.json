@@ -29,18 +29,12 @@
           "Asistencia.DTO": "1.0.0"
         },
         "runtime": {
-          "Asistencia.Abstractions.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Asistencia.Abstractions.dll": {}
         }
       },
       "Asistencia.DTO/1.0.0": {
         "runtime": {
-          "Asistencia.DTO.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Asistencia.DTO.dll": {}
         }
       }
     }

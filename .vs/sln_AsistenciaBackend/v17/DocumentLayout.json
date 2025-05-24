@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Asistencia.WebAPI\\appsettings.json",
               "ToolTip": "D:\\trabajo\\Nivargo\\asistencia kamatera\\Asistenciabackend\\Asistencia.WebAPI\\appsettings.json",
               "RelativeToolTip": "Asistencia.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-23T00:42:53.198Z",
               "EditorCaption": ""
@@ -99,8 +99,7 @@
               "RelativeToolTip": "Asistencia.Repository\\MotivoHorario\\MotivoHorarioRepository.cs",
               "ViewState": "AQIAAGUAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T22:05:58.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T22:05:58.224Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "Asistencia.WebAPI\\Controllers\\MotivoHorarioController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAIwDgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T22:01:58.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T22:01:58.985Z"
             },
             {
               "$type": "Document",

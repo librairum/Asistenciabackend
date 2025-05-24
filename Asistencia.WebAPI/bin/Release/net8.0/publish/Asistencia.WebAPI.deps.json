@@ -454,10 +454,7 @@
           "Asistencia.DTO": "1.0.0"
         },
         "runtime": {
-          "Asistencia.Abstractions.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Asistencia.Abstractions.dll": {}
         }
       },
       "Asistencia.Application/1.0.0": {
@@ -466,18 +463,12 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         },
         "runtime": {
-          "Asistencia.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Asistencia.Application.dll": {}
         }
       },
       "Asistencia.DTO/1.0.0": {
         "runtime": {
-          "Asistencia.DTO.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Asistencia.DTO.dll": {}
         }
       },
       "Asistencia.Repository/1.0.0": {
@@ -489,10 +480,7 @@
           "Microsoft.Extensions.DependencyInjection": "9.0.0"
         },
         "runtime": {
-          "Asistencia.Repository.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Asistencia.Repository.dll": {}
         }
       },
       "Asistencia.Services/1.0.0": {
@@ -502,10 +490,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         },
         "runtime": {
-          "Asistencia.Services.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Asistencia.Services.dll": {}
         }
       }
     }
