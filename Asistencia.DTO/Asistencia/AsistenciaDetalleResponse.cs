@@ -43,6 +43,13 @@ namespace Asistencia.DTO.Asistencia
             public string Horas35 { get; set; }
             public string Horas60 { get; set; }
             public string Horas100 { get; set; }
+        public string HorarioPersonalizado_Motivo { get; set; }
+        public string HorarioPersonalizado { get; set; }
+
+
+        public string HorasTrabajadas { get; set; }
+        public string HorasExtrasTrabajadas { get; set; }
+
 
 
     }

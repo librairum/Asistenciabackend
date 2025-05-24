@@ -18,7 +18,7 @@ namespace Asistencia.DTO.Asistencia
         public int Dias { get; set; }
         public string Horas25 { get; set; }
         public string Horas60 { get; set; }
-        public string  Horas100 { get; set; }
+        public string Horas100 { get; set; }
 
         //campos para exportacion de txt
         public double DiasFalta { get; set; }
@@ -36,9 +36,12 @@ namespace Asistencia.DTO.Asistencia
         public string NHorExtr100 { get; set; }
         public string NHorExtr100Obrero { get; set; }
 
-        
+        public string HorasTrabajadas { get; set; }
         public string NHorExtrDo { get; set; }
 
+        public string HorasHorario { get; set; }
+        public string HorasExtrasTotales {get;set;}
 
+        public int DiasDescanso { get; set; }
     }
 }

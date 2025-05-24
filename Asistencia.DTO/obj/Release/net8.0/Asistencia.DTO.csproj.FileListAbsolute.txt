@@ -22,3 +22,15 @@ D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Rele
 D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\refint\Asistencia.DTO.dll
 D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.pdb
 D:\trabajo\Nivargo\asistencia kamatera\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\ref\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\bin\Release\net8.0\Asistencia.DTO.deps.json
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\bin\Release\net8.0\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\bin\Release\net8.0\Asistencia.DTO.pdb
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.AssemblyInfoInputs.cache
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.AssemblyInfo.cs
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.csproj.CoreCompileInputs.cache
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.sourcelink.json
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\refint\Asistencia.DTO.dll
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\Asistencia.DTO.pdb
+D:\SISTEMA_KAMATERA\Backend\github\Asistenciabackend\Asistencia.DTO\obj\Release\net8.0\ref\Asistencia.DTO.dll
