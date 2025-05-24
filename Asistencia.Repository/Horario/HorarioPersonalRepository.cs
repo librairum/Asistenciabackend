@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using Dapper;
+using Asistencia.DTO.HorarioPersonal;
 namespace Asistencia.Repository.Horario
 {
     public class HorarioPersonalRepository : IHorarioPersonalRepository
@@ -144,7 +145,7 @@ namespace Asistencia.Repository.Horario
             return result;
         }
 
-        public async Task<ResultDTO<string>> SpActualizaHorariosMasivo(string xmlhorarios)
+        public async Task<ResultDTO<string>> SpActualizaHorariosMasivo(HorarioMasivoRequest entidad)
         {
 
             ResultDTO<string> result = new ResultDTO<string>();
@@ -153,7 +154,7 @@ namespace Asistencia.Repository.Horario
                 SqlConnection cn = new SqlConnection(_connectionString);
                 SqlCommand cmd = new SqlCommand("Spu_Int_Upd_HorariosPersonalMasivo", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@xmlhorarios", xmlhorarios);
+                cmd.Parameters.AddWithValue("@xmlhorarios", entidad.xmlhorarios);
 
                 var parFlag = cmd.Parameters.Add("@flag", SqlDbType.Int);
                 parFlag.Direction = ParameterDirection.Output;

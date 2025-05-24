@@ -364,15 +364,25 @@
         "tags": [
           "HorarioPersonal"
         ],
-        "parameters": [
-          {
-            "name": "xmlmasivo",
-            "in": "query",
-            "schema": {
-              "type": "string"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioMasivoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioMasivoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HorarioMasivoRequest"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -904,6 +914,16 @@
             "nullable": true
           },
           "codigoempresa": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HorarioMasivoRequest": {
+        "type": "object",
+        "properties": {
+          "xmlhorarios": {
             "type": "string",
             "nullable": true
           }

@@ -181,9 +181,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "xmlmasivo",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "entidad",
+        "Type": "Asistencia.DTO.HorarioPersonal.HorarioMasivoRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

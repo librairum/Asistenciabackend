@@ -1,5 +1,6 @@
 ﻿using Asistencia.Abstractions.IApplication;
 using Asistencia.DTO.Horario;
+using Asistencia.DTO.HorarioPersonal;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -70,11 +71,11 @@ namespace Asistencia.WebAPI.Controllers
 
         [HttpPut]
         [Route("SpActualizaMasivo")]
-        public async Task<ActionResult> SpActualizaHorariosMasivo(string xmlmasivo)
+        public async Task<ActionResult> SpActualizaHorariosMasivo([FromBody] HorarioMasivoRequest entidad)
         {
             try
             {
-                var result = await this._application.SpActualizaHorariosMasivo(xmlmasivo);
+                var result = await this._application.SpActualizaHorariosMasivo(entidad);
                 return Ok(result);
             }catch(Exception ex)
             {

@@ -1,5 +1,6 @@
 ﻿using Asistencia.DTO.Common;
 using Asistencia.DTO.Horario;
+using Asistencia.DTO.HorarioPersonal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,6 @@ namespace Asistencia.Abstractions.IRepository
         public Task<ResultDTO<string>> SpInserta(HorarioPersonalRequest entidad);
         public Task<ResultDTO<string>> SpActualiza(HorarioPersonalRequest entidad);
         public Task<ResultDTO<HorarioPersonalResponse>> SpTraeHorarioDet(string EmpresaCod, string idpersonal, string dia);
-        public Task<ResultDTO<string>> SpActualizaHorariosMasivo(string xmlhorarios);
+        public Task<ResultDTO<string>> SpActualizaHorariosMasivo(HorarioMasivoRequest entidad);
     }
 }

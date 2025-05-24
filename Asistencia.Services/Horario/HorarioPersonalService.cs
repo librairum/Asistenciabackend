@@ -2,6 +2,7 @@
 using Asistencia.Abstractions.IService;
 using Asistencia.DTO.Common;
 using Asistencia.DTO.Horario;
+using Asistencia.DTO.HorarioPersonal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,9 +41,9 @@ namespace Asistencia.Services.Horario
             return await this._repositorio.SpTraeHorarioDet(EmpresaCod, idpersonal, dia);
         }
 
-        public async Task<ResultDTO<string>> SpActualizaHorariosMasivo(string xmlhorarios)
+        public async Task<ResultDTO<string>> SpActualizaHorariosMasivo(HorarioMasivoRequest entidad)
         {
-            return await this._repositorio.SpActualizaHorariosMasivo(xmlhorarios);
+            return await this._repositorio.SpActualizaHorariosMasivo(entidad);
         }
     }
 }
